@@ -18,7 +18,7 @@ export function Videos() {
   const [playing, setPlaying] = useState<string | null>(null)
 
   return (
-    <section aria-labelledby="videos-title" className="bg-background py-20 md:py-28">
+    <section id="videos" aria-labelledby="videos-title" className="bg-background py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
         <SectionHeading
           id="videos-title"

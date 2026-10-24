@@ -8,6 +8,7 @@ import { Academics } from '@/components/site/academics'
 import { NewsEvents } from '@/components/site/news-events'
 import { Leadership } from '@/components/site/leadership'
 import { Facilities } from '@/components/site/facilities'
+import { QuickResources } from '@/components/site/quick-resources'
 import { CampusVoices } from '@/components/site/campus-voices'
 import { GetInTouch } from '@/components/site/get-in-touch'
 import { Footer } from '@/components/site/footer'
@@ -27,6 +28,7 @@ export default function Page() {
         <NewsEvents />
         <Leadership />
         <Facilities />
+        <QuickResources />
         <CampusVoices />
         <GetInTouch />
       </main>
