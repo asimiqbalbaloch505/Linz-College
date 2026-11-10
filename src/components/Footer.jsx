@@ -51,7 +51,7 @@ export default function Footer() {
               <div className="footer-column">
                 <h4>Resources</h4>
                 <ul>
-                  <li><a href="/prospectus">Prospectus</a></li>
+                  <li><a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer">Prospectus</a></li>
                   <li><a href={site.downloads.admissionForm} {...EXT}>Admission Form (PDF)</a></li>
                   <li><a href="/facilities">Facilities</a></li>
                   <li><a href="/principal">Principal&apos;s Message</a></li>

@@ -1,5 +1,4 @@
 import WebsiteJunaidZaidiLibrary from "./WebsiteJunaidZaidiLibrary";
-import WebsiteProspectus from "./WebsiteProspectus";
 import WebsiteAboutComsats from "./WebsiteAboutComsats";
 import WebsiteComsatsAcademics from "./WebsiteComsatsAcademics";
 import WebsiteComsatsAffiliations from "./WebsiteComsatsAffiliations";
@@ -15,7 +14,6 @@ import WebsiteComsatsCafeteria from "./WebsiteComsatsCafeteria";
 
 export default {
   "website-junaid-zaidi-library": WebsiteJunaidZaidiLibrary,
-  "website-prospectus": WebsiteProspectus,
   "website-about-comsats": WebsiteAboutComsats,
   "website-comsats-academics": WebsiteComsatsAcademics,
   "website-comsats-affiliations": WebsiteComsatsAffiliations,

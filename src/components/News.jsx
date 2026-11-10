@@ -35,7 +35,7 @@ export default function News() {
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-              <a href="/prospectus" className="news-item" rel="noopener noreferrer">
+              <a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer" className="news-item">
                 <div className="news-image">
                   <img src="/images/linz/building.jpg" alt="Prospectus and admission form" loading="lazy" />
                 </div>

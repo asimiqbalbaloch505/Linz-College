@@ -96,7 +96,7 @@ export default function Header() {
                   <div className="row g-5 p-4">
                     <Col cls="col-12 col-md-6 col-lg-4" title="SCHOOL" items={[["Playgroup & Primary", "/academics"], ["Middle Section", "/academics"], ["Matric (SSC)", "/academics"]]} />
                     <Col cls="col-12 col-md-6 col-lg-4" title="COLLEGE (HSSC)" items={[["FSc Pre-Medical", "/academics"], ["FSc Pre-Engineering", "/academics"], ["ICS", "/academics"]]} />
-                    <Col cls="col-12 col-md-6 col-lg-4" title="RESOURCES" items={[["Prospectus", "/prospectus"], ["Science & Computer Labs", "/facilities#labs"], ["Library", "/facilities#library"]]} />
+                    <Col cls="col-12 col-md-6 col-lg-4" title="RESOURCES" items={[["Prospectus (PDF)", "/downloads/prospectus.pdf", true], ["Science & Computer Labs", "/facilities#labs"], ["Library", "/facilities#library"]]} />
                   </div>
                   <MegaFooter href="/academics" text="View all academics" note={`🎓 ${site.name}`} />
                 </div>

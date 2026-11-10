@@ -12,13 +12,13 @@ export default function WebsiteRectorComsats() {
             <div className="container">
               <div className="inner-page-hero-content">
                 <span className="inner-page-eyebrow">
-                  COMSATS UNIVERSITY ISLAMABAD
+                  LINZ COLLEGE D.I.KHAN
                 </span>
                 <h1>
-                  Message from Rector
+                  Message from the Principal
                 </h1>
                 <p>
-                  Message, leadership, office functions and responsibilities of the Rector of COMSATS University Islamabad.
+                  A message from Hameed Ramzan Qarni, Principal of Linz College D.I.Khan.
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -34,7 +34,7 @@ export default function WebsiteRectorComsats() {
                   <i className="fa-solid fa-chevron-right"></i>
                   {" "}
                   <span>
-                    Message from Rector
+                    Message from the Principal
                   </span>
                 </div>
               </div>
@@ -45,38 +45,38 @@ export default function WebsiteRectorComsats() {
               <div className="row align-items-center g-5">
                 <div className="col-lg-7">
                   <span className="rector-section-label">
-                    MESSAGE FROM THE RECTOR
+                    MESSAGE FROM THE PRINCIPAL
                   </span>
                   <h2>
-                    Message by Message from Rector
+                    Welcome to Linz College
                   </h2>
                   <p className="rector-intro">
-                    Welcome to COMSATS University Islamabad (CUI) — a forward-looking, multi-campus public university shaping the future of education, research, and innovation in Pakistan and beyond.
+                    Welcome to Linz College D.I.Khan, a residential institution in Dera Ismail Khan, affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan.
                   </p>
                   <div className="rector-message-text">
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>
-                        As Rector of this distinguished institution, spanning seven campuses across the country, it is both an honour and a responsibility to lead a university where knowledge transcends boundaries and potential is transformed into impact. CUI stands at the intersection of academic excellence, technological advancement, and societal responsibility.
+                        Linz College was founded in April 2015 with a simple dream: to give the students of D.I.Khan a quality residential institution where they can learn, grow and succeed. Over the years our students have shown brilliant results in both SSC and HSSC, and we are proud of every one of them.
                       </span>
                     </p>
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>
-                        At COMSATS University Islamabad, we are committed to cultivating an ecosystem that champions creativity, critical inquiry, interdisciplinary thinking, and lifelong learning. Our academic rigor is purposefully aligned with the development of ethical, socially responsible, and globally competitive individuals—graduates who not only excel professionally but also contribute meaningfully to society.
+                        We believe every student has a spark that only needs the right guidance to shine. Our teachers work closely with students and parents to build a strong academic foundation, good character and the confidence to face the future.
                       </span>
                     </p>
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>
-                        As you explore our digital presence, you will encounter the breadth and depth of CUI’s diverse academic programs, cutting-edge research initiatives, industry linkages, and a vibrant campus life set within our lush green environments. Whether you are a prospective student, an academic collaborator, an industry partner, or a visitor seeking insight into our vision, we invite you to engage deeply and discover the distinctive COMSATS experience.
+                        From Playgroup to Matric, and in FSc Pre-Medical, Pre-Engineering and ICS, our aim is the same: to help every student reach his or her full potential in a focused and caring learning environment.
                       </span>
                     </p>
                     <p>
                       <br />
                     </p>
                     <p>
-                      CUI is more than an institution of higher learning; it is a dynamic community of scholars, innovators, researchers, and professionals united by a shared mission—to generate knowledge, advance technology, and address real-world challenges. Our pursuit of excellence extends far beyond classrooms and laboratories, embedding resilience, leadership, and adaptability in everything we do.
+                      To our students: be curious, work hard and never stop learning. To our parents: thank you for trusting us with your children. We will continue to work with you to give them the best possible education.
                     </p>
                     <p>
-                      In response to the evolving demands of the Fifth Industrial Revolution, COMSATS University Islamabad emphasizes human-centric, sustainable, and ethically grounded education that integrates advanced technologies with societal needs. Our academic and research programs equip graduates with future-ready skills, adaptability, and leadership capacity, enabling them to collaborate effectively with intelligent technologies while addressing complex economic, environmental, and social challenges. Through this approach, CUI prepares its graduates to compete globally and contribute responsibly to inclusive and sustainable development.
+                      I invite you to visit our campus, meet our staff and see for yourself how Linz can become a second home for your child.
                     </p>
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>
@@ -95,31 +95,31 @@ export default function WebsiteRectorComsats() {
                     </p>
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>
-                        I pray to Almighty Allah for guidance and success in our collective endeavours and look forward to even greater achievements in the years ahead.
+                        I pray to Almighty Allah for guidance and success for all our students and their families.
                       </span>
                     </p>
                   </div>
                   <div className="rector-signature">
                     <strong>
-                      Prof. Dr. Raheel Qamar
+                      Hameed Ramzan Qarni
                     </strong>
                     {" "}
                     <span>
-                      Rector
+                      Principal
                     </span>
                   </div>
                 </div>
                 <div className="col-lg-5">
                   <div className="rector-photo-wrap">
                     <div className="rector-photo-pattern"></div>
-                    <img src="data:application/octet-stream;base64," alt="Prof. Dr. Raheel Qamar" className="rector-photo" />
+                    <img src="/images/linz/principal.jpg" alt="Hameed Ramzan Qarni" className="rector-photo" />
                     <div className="rector-photo-caption">
                       <span>
-                        Message from Rector
+                        Message from the Principal
                       </span>
                       {" "}
                       <strong>
-                        Prof. Dr. Raheel Qamar
+                        Hameed Ramzan Qarni
                       </strong>
                     </div>
                   </div>

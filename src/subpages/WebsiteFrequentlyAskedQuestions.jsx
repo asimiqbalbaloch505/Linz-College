@@ -18,7 +18,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   Frequently Asked Questions
                 </h1>
                 <p>
-                  Find answers to commonly asked questions about admissions, academics and scholarships.
+                  Find answers to common questions about Linz College D.I.Khan, admissions and facilities.
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -71,7 +71,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   <i className="fa-solid fa-circle-info"></i>
                   {" "}
                   <span>
-                    General Information
+                    About the College
                   </span>
                 </button>
                 {" "}
@@ -79,15 +79,15 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   <i className="fa-solid fa-file-pen"></i>
                   {" "}
                   <span>
-                    Admission Related Information
+                    Admissions
                   </span>
                 </button>
                 {" "}
-                <button type="button" className="faq-tab" data-faq-category="scholarships">
+                <button type="button" className="faq-tab" data-faq-category="programs">
                   <i className="fa-solid fa-award"></i>
                   {" "}
                   <span>
-                    Scholarships
+                    Programs &amp; Facilities
                   </span>
                 </button>
               </div>
@@ -99,7 +99,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      What is the full name of University?
+                      What is the full name of the college?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -108,7 +108,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      COMSATS University Islamabad (CUI).
+                      Linz College D.I.Khan, also known as Linz School &amp; College, in Dera Ismail Khan.
                     </div>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      What is an abbreviation of COMSATS?
+                      Where is the college located?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -128,7 +128,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      Commission on Science and Technology for Sustainable Development in the South (COMSATS).
+                      Main Diyal Road, Dera Ismail Khan. You can see the map on the Contact page.
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      Is CUI a private or Public Sector University?
+                      When was the college established?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -148,7 +148,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      It’s a Federally Chartered, Public sector University.
+                      Linz College was established in April 2015 by Hameed Ramzan Qarni.
                     </div>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      Is University recognized by Higher Education Commission (HEC) of Pakistan?
+                      Which board is the college affiliated with?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -168,7 +168,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      Yes, University is recognized by the Higher Education Commission (HEC) of Pakistan.
+                      The college is affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan.
                     </div>
                   </div>
                 </div>
@@ -179,7 +179,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      How many campuses does university have?
+                      Is Linz College a residential institution?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -188,10 +188,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      There are seven campuses of CUI.
-                      <br />
-                      <br />
-                      Islamabad campus, Lahore campus, Abbottabad Campus, Sahiwal Campus, Vehari Campus, Wah Campus, Attock Campus.
+                      Yes. Linz College is a residential institution. For hostel details, please contact us on WhatsApp or by email.
                     </div>
                   </div>
                 </div>
@@ -202,7 +199,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      What is system of education being followed at CUI?
+                      How are the results of the college?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -211,7 +208,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      CUI follows semester system. There are two semesters in a year i.e Spring (February – June) and Fall (September – January).
+                      Our students have shown brilliant results in both SSC and HSSC.
                     </div>
                   </div>
                 </div>
@@ -222,7 +219,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      Is there any age limit for applying for admission in Undergraduate degree programs?
+                      Can I visit the campus?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -231,452 +228,259 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      There is no age limit. CUI provides equal opportunity to all the applicant purely on merit bases.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      08
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      How Frequently Admissions are offered at CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      CUI Offers admissions in Undergraduate and Graduate degree programs twice in a year i-e Fall and Spring session.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      09
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does Pakistan Engineering Council (PEC) recognize engineering programs of CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, all the engineering programs offer by CUI are recognized by Pakistan Engineering council.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      10
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS University has highly qualified faculty in various disciplines?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, COMSATS has highly qualified and experienced faculty in various disciplines in accordance with the guidelines provided by HEC.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      11
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does NCEAC and NBEAC recognize computer science and Management Science programs of CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, all degree programs at all campuses of CUI are recognized by HEC and their relevant accreditation bodies.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      12
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS University have lab facilities?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, COMSATS have latest and well-equipped relevant laboratories to support programs being offered at Undergraduate and Graduate level.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      13
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS has computer lab facilities?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, COMSATS has modern classrooms and well-equipped updated computer labs as well as high speed internet facility.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      14
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS has library facility?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, all the campuses of COMSATS have state-of-the-art modern library facilities, having access to specialized digital resources and databases. Sufficient subject-wise books and journals are also available.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      15
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Do the applicants with DAE qualification eligible to apply for admission in Engineering Programs?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, a 2% quota is reserved for DAE applicants who can apply for the Engineering Programs in line with the policy guidelines provided by the Pakistan Engineering Council (PEC).
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      16
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Is there is any self-finance / quota system in COMSATS?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      No, admissions are offered on open merit basis.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      17
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS provide Hostel Facility.
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Mostly all the campuses has hostel facility/hostel facilitation center, but it is better to contact respective Admission Office of that campus for further confirmation.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      18
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does COMSATS provides a transport Facility for the students?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Yes, CUI provides transport facility to their students.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      19
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      When do the classes commence?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Fall semester commence in 1st week of September, whereas the Spring semester commence in 1st week of February.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      20
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does CUI entertain transfer/migration cases?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      CUI does not have credit hours transfer policy from any National or International Institute/university. However, a student of CUI can transfer his/her credit hours to other university either national or international.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      21
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      What is a duration of undergraduate and graduate (MS/P.hD) degree programs?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      <div className="faq-program-table">
-                        <div className="faq-program-row faq-program-header">
-                          <strong>
-                            Program
-                          </strong>
-                          {" "}
-                          <strong>
-                            Years
-                          </strong>
-                          {" "}
-                          <strong>
-                            Minimum Semesters
-                          </strong>
-                          {" "}
-                          <strong>
-                            Maximum Semesters
-                          </strong>
-                        </div>
-                        <div className="faq-program-row">
-                          <strong>
-                            Bachelor
-                          </strong>
-                          {" "}
-                          <span>
-                            04
-                          </span>
-                          {" "}
-                          <span>
-                            08
-                          </span>
-                          {" "}
-                          <span>
-                            12
-                          </span>
-                        </div>
-                        <div className="faq-program-row">
-                          <strong>
-                            MS
-                          </strong>
-                          {" "}
-                          <span>
-                            02
-                          </span>
-                          {" "}
-                          <span>
-                            04
-                          </span>
-                          {" "}
-                          <span>
-                            08
-                          </span>
-                        </div>
-                        <div className="faq-program-row">
-                          <strong>
-                            Ph.D
-                          </strong>
-                          {" "}
-                          <span>
-                            03
-                          </span>
-                          {" "}
-                          <span>
-                            06
-                          </span>
-                          {" "}
-                          <span>
-                            14
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      22
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      What is a medium of instruction in CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      English is a medium of instruction in CUI
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      23
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      If my name on CNIC / Passport is different which is mentioned on my academic documents. How can I get the same name on my degree/transcript issued by CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      At the time of admission, the applicant is required to enter his/her personal data (name, father name, Date of Birth (DOB)) in accordance to his/her Secondary School Certificate (SSC) / O-Levels certificate.
-                      <br />
-                      <br />
-                      However, in case of any change in student name, you will be first required to get the SSC/O-Level DMC / Certificate revised and submit the revised SSC/O-Level certificate to CUI for change in name.
-                      <br />
-                      <br />
-                      Please note that, you need to apply for the change in name or father name or DOB well before the printing of final transcript.
-                      <br />
-                      <br />
-                      In case of applying after printing of transcript / Degree, you will be required to pay the prescribed fee.
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      24
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Is there any part time degree programs or short course(s) / diploma offered by CUI?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      CUI offers full time degree programs
-                    </div>
-                  </div>
-                </div>
-                <div className="faq-item">
-                  <button className="faq-question" type="button">
-                    <span className="faq-number">
-                      25
-                    </span>
-                    {" "}
-                    <span className="faq-question-text">
-                      Does CUI Islamabad Campus offer any weekend programs?
-                    </span>
-                    {" "}
-                    <span className="faq-toggle">
-                      <i className="fa-solid fa-plus"></i>
-                    </span>
-                  </button>
-                  <div className="faq-answer">
-                    <div className="faq-answer-inner">
-                      Currently, no weekend programs are being offered by CUI.
+                      Yes, parents and students are welcome to visit. Please call 0966-852742 or message us on WhatsApp first so that we can arrange your visit.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="faq-category sf-hidden" id="faq-admission" data-category="admission"></div>
-              <div className="faq-category sf-hidden" id="faq-scholarships" data-category="scholarships"></div>
-              <div id="faqNoResults" className="faq-no-results sf-hidden"></div>
+              <div className="faq-category" id="faq-admission" data-category="admission">
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      01
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Are admissions open at the moment?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Admission announcements are shared in the News section of this website and on our TikTok and Instagram pages. Please message us on WhatsApp to confirm the current admission status.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      02
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      How can I apply for admission?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Download the admission form from the Admissions page, then contact us on WhatsApp or by phone for the submission process.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      03
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Where can I get the prospectus and admission form?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Both are available as PDF downloads on the Prospectus page and the Admissions page.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      04
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      What are the fees?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Fee details can change, so please contact us on WhatsApp (+92 342 4803706) or by email (hameedkerni@gmail.com) for the current fee information.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      05
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Which documents are required for admission?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Please check the prospectus and admission form, or contact us for the list of required documents.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      06
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Whom should I contact for admission enquiries?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Message us on WhatsApp at +92 342 4803706, call 0966-852742, or email hameedkerni@gmail.com.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="faq-category" id="faq-programs" data-category="programs">
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      01
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Which classes and programs does the college offer?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      We offer education from Playgroup to Matric, with Primary and Middle sections, and FSc Pre-Medical, FSc Pre-Engineering and ICS at the intermediate level.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      02
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Which FSc groups are available?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      FSc Pre-Medical and FSc Pre-Engineering are available, along with ICS (Intermediate in Computer Science).
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      03
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Does the college have science labs?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Yes. The college has four labs: Physics, Chemistry, Biology and Computer.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      04
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Does the college have a library?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Yes. The college has a library with books and study material for students.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      05
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Are there sports and a cafeteria?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Yes, the college has sports activities and a campus cafeteria. Details can change, so please contact us for current information.
+                    </div>
+                  </div>
+                </div>
+                <div className="faq-item">
+                  <button className="faq-question" type="button">
+                    <span className="faq-number">
+                      06
+                    </span>
+                    {" "}
+                    <span className="faq-question-text">
+                      Does the college provide transport?
+                    </span>
+                    {" "}
+                    <span className="faq-toggle">
+                      <i className="fa-solid fa-plus"></i>
+                    </span>
+                  </button>
+                  <div className="faq-answer">
+                    <div className="faq-answer-inner">
+                      Transport is not available at present.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="faq-no-results sf-hidden" id="faqNoResults">
+                <h3>No results found</h3>
+                <p>Try a different word, or message us on WhatsApp.</p>
+              </div>
             </div>
           </section>
           ```

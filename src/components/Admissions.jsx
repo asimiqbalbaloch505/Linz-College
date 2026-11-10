@@ -113,7 +113,7 @@ export default function Admissions() {
             </h3>
           </div>
           <div className="admission-resource-links">
-            <a href="/prospectus">
+            <a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer">
               <i className="fa-solid fa-file-lines"></i>
               {" "}
               <span>

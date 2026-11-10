@@ -19,7 +19,7 @@ export default function UsefulLinks() {
         </div>
         <div className="row g-3 mt-4">
           <div className="col-lg-4 col-md-6">
-            <a href="/prospectus" className="useful-link-card reveal active">
+            <a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer" className="useful-link-card reveal active">
               <img src="/images/linz/building.jpg" alt="Linz College prospectus" loading="lazy" />
               <div className="useful-link-overlay"></div>
               <div className="useful-link-content">

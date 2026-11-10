@@ -286,7 +286,7 @@ export default function WebsiteComsatsAdmissions() {
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   {" "}
-                  <a href="/prospectus">
+                  <a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-book-open"></i>
                     {" "}
                     Prospectus
