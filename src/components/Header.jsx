@@ -174,7 +174,7 @@ export default function Header() {
               <a className="status-pill" href={site.downloads.prospectus} {...EXT} style={{ textDecoration: "none" }}>
                 Download Prospectus
               </a>{" "}
-              <a className="apply-btn" href={site.whatsapp.link} {...EXT}>WhatsApp Us →</a>
+              <a className="apply-btn" href="/contact">Contact Us →</a>
             </div>
           </div>
         </div>
