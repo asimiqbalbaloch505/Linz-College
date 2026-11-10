@@ -1,0 +1,27 @@
+export const site = {
+  name: "Linz College D.I.Khan",
+  shortName: "Linz",
+  city: "Dera Ismail Khan",
+  established: 2015,
+  board: "BISE D.I.Khan",
+  affiliation: "Board of Intermediate and Secondary Education (BISE) D.I.Khan",
+  tagline: "Knowledge That Lights the Way",
+  logo: "/images/logo.png",
+  principal: { name: "Hameed Ramzan Qarni", title: "Principal" },
+  address: "Main Diyal Road, Dera Ismail Khan",
+  phone: { display: "0966-852742", tel: "+92966852742" },
+  whatsapp: { display: "+92 342 4803706", link: "https://wa.me/923424803706" },
+  email: "hameedkerni@gmail.com",
+  downloads: { prospectus: "/downloads/prospectus.pdf", admissionForm: "/downloads/admission-form.pdf" },
+  social: {
+    tiktok: "https://www.tiktok.com/@linz.college.d.i",
+    instagram: "https://www.instagram.com/linzcollegedikhan/",
+    facebook: "",
+    youtube: "",
+  },
+  map: {
+    lat: 31.8559795,
+    lng: 70.9103029,
+    embed: "https://maps.google.com/maps?q=31.8559795,70.9103029&z=17&output=embed",
+  },
+};

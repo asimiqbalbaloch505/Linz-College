@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/junaid-zaidi-library",
+    "path": "/facilities",
+    "slug": "website-junaid-zaidi-library"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/prospectus",
+    "path": "/prospectus",
+    "slug": "website-prospectus"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/about-comsats",
+    "path": "/about",
+    "slug": "website-about-comsats"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/comsats-academics",
+    "path": "/academics",
+    "slug": "website-comsats-academics"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/comsats-news",
+    "path": "/news",
+    "slug": "website-comsats-news"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/",
+    "path": "/",
+    "slug": "home"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/contact-us",
+    "path": "/contact",
+    "slug": "website-contact-us"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/comsats-admissions",
+    "path": "/admissions",
+    "slug": "website-comsats-admissions"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/campus-life",
+    "path": "/campus-life",
+    "slug": "website-campus-life"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/frequently-asked-questions",
+    "path": "/faq",
+    "slug": "website-frequently-asked-questions"
+  },
+  {
+    "url": "https://islamabad.comsats.edu.pk/Website/rector-comsats",
+    "path": "/principal",
+    "slug": "website-rector-comsats"
+  }
+]
