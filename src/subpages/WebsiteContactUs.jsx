@@ -18,7 +18,7 @@ export default function WebsiteContactUs() {
                   Contact Us
                 </h1>
                 <p>
-                  General Contact Information
+                  Admissions and general enquiries.
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -51,7 +51,7 @@ export default function WebsiteContactUs() {
                         </span>
                       </h2>
                       <p>
-                        For assistance, please contact the relevant office using the information provided below.
+                        For assistance, please contact us using the information below. For a quick reply, message us on WhatsApp.
                       </p>
                     </div>
                     <div className="contact-person-card">
@@ -77,7 +77,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              Mr. Rizwan Ahmed
+                              Admission Office
                             </strong>
                           </div>
                         </div>
@@ -89,7 +89,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              In-Charge Admissions
+                              Admission Enquiries
                             </strong>
                           </div>
                         </div>
@@ -100,8 +100,8 @@ export default function WebsiteContactUs() {
                               Email
                             </span>
                             {" "}
-                            <a href="mailto:rizwan_ahmed@comsats.edu.pk">
-                              Email Admissions
+                            <a href="mailto:hameedkerni@gmail.com">
+                              Email Us
                             </a>
                           </div>
                         </div>
@@ -112,8 +112,8 @@ export default function WebsiteContactUs() {
                               Phone
                             </span>
                             {" "}
-                            <a href="tel:+925190495032">
-                              (92-51) 9049 5032-5
+                            <a href="tel:+92966852742">
+                              0966-852742
                             </a>
                           </div>
                         </div>
@@ -126,10 +126,10 @@ export default function WebsiteContactUs() {
                         </div>
                         <div>
                           <h3>
-                            Academics
+                            Principal
                           </h3>
                           <span className="contact-office-label">
-                            In-Charge
+                            Principal's Office
                           </span>
                         </div>
                       </div>
@@ -142,7 +142,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              Dr. Tayyaba Yasmin
+                              Hameed Ramzan Qarni
                             </strong>
                           </div>
                         </div>
@@ -154,7 +154,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              In-Charge Academics
+                              Principal
                             </strong>
                           </div>
                         </div>
@@ -165,8 +165,8 @@ export default function WebsiteContactUs() {
                               Email
                             </span>
                             {" "}
-                            <a href="mailto:tayyaba_yasmin@comsats.edu.pk">
-                              Email
+                            <a href="mailto:hameedkerni@gmail.com">
+                              Email Us
                             </a>
                           </div>
                         </div>
@@ -174,11 +174,11 @@ export default function WebsiteContactUs() {
                           <i className="fa-solid fa-phone"></i>
                           <div>
                             <span>
-                              Phone
+                              WhatsApp
                             </span>
                             {" "}
-                            <a href="tel:+925190495032">
-                              (92-51) 9049 5403
+                            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/923424803706">
+                              +92 342 4803706
                             </a>
                           </div>
                         </div>
@@ -191,10 +191,10 @@ export default function WebsiteContactUs() {
                         </div>
                         <div>
                           <h3>
-                            Academics
+                            Visit
                           </h3>
                           <span className="contact-office-label">
-                            Undergraduate
+                            Visit Us
                           </span>
                         </div>
                       </div>
@@ -207,7 +207,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              Mr. M. Ali Chaudhary
+                              Linz College D.I.Khan
                             </strong>
                           </div>
                         </div>
@@ -219,7 +219,7 @@ export default function WebsiteContactUs() {
                             </span>
                             {" "}
                             <strong>
-                              Deputy Registrar (Undergraduate)
+                              Main Diyal Road, Dera Ismail Khan
                             </strong>
                           </div>
                         </div>
@@ -230,8 +230,8 @@ export default function WebsiteContactUs() {
                               Email
                             </span>
                             {" "}
-                            <a href="mailto:alich@comsats.edu.pk">
-                              Email Academics
+                            <a href="mailto:hameedkerni@gmail.com">
+                              Email Us
                             </a>
                           </div>
                         </div>
@@ -242,268 +242,8 @@ export default function WebsiteContactUs() {
                               Phone
                             </span>
                             {" "}
-                            <a href="tel:+925190495215">
-                              (92-51) 9049 5215
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="contact-person-card">
-                      <div className="contact-person-top">
-                        <div className="contact-number">
-                          04
-                        </div>
-                        <div>
-                          <h3>
-                            Academics
-                          </h3>
-                          <span className="contact-office-label">
-                            Graduate
-                          </span>
-                        </div>
-                      </div>
-                      <div className="contact-details">
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-user"></i>
-                          <div>
-                            <span>
-                              Name
-                            </span>
-                            {" "}
-                            <strong>
-                              Mr. Khawaja Noman Tariq
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-briefcase"></i>
-                          <div>
-                            <span>
-                              Designation
-                            </span>
-                            {" "}
-                            <strong>
-                              Deputy Registrar (Graduate)
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-envelope"></i>
-                          <div>
-                            <span>
-                              Email
-                            </span>
-                            {" "}
-                            <a href="mailto:noman_tariq@comsats.edu.pk">
-                              Email Academics
-                            </a>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-phone"></i>
-                          <div>
-                            <span>
-                              Phone
-                            </span>
-                            {" "}
-                            <a href="tel:+925190495153">
-                              (92-51) 9049 5153
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="contact-person-card">
-                      <div className="contact-person-top">
-                        <div className="contact-number">
-                          05
-                        </div>
-                        <div>
-                          <h3>
-                            Student Affairs
-                          </h3>
-                          <span className="contact-office-label">
-                            Student Affairs Section
-                          </span>
-                        </div>
-                      </div>
-                      <div className="contact-details">
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-user"></i>
-                          <div>
-                            <span>
-                              Name
-                            </span>
-                            {" "}
-                            <strong>
-                              Ms. Madiha Sayed
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-briefcase"></i>
-                          <div>
-                            <span>
-                              Designation
-                            </span>
-                            {" "}
-                            <strong>
-                              Manager / Incharge Student Affairs Section
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-envelope"></i>
-                          <div>
-                            <span>
-                              Email
-                            </span>
-                            {" "}
-                            <a href="mailto:madiha_sayed@comsats.edu.pk">
-                              Email Student Affairs
-                            </a>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-phone"></i>
-                          <div>
-                            <span>
-                              Phone
-                            </span>
-                            {" "}
-                            <a href="tel:+925190495369">
-                              (92-51) 9049 5140
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="contact-person-card">
-                      <div className="contact-person-top">
-                        <div className="contact-number">
-                          06
-                        </div>
-                        <div>
-                          <h3>
-                            Human Resource
-                          </h3>
-                          <span className="contact-office-label">
-                            Islamabad Campus
-                          </span>
-                        </div>
-                      </div>
-                      <div className="contact-details">
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-user"></i>
-                          <div>
-                            <span>
-                              Name
-                            </span>
-                            {" "}
-                            <strong>
-                              Mr. Ali Ahmed Khan
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-briefcase"></i>
-                          <div>
-                            <span>
-                              Designation
-                            </span>
-                            {" "}
-                            <strong>
-                              Incharge HR, Islamabad Campus
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-envelope"></i>
-                          <div>
-                            <span>
-                              Email
-                            </span>
-                            {" "}
-                            <a href="mailto:aliahmed_isb@comsats.edu.pk">
-                              Email Human Resource
-                            </a>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-phone"></i>
-                          <div>
-                            <span>
-                              Phone
-                            </span>
-                            {" "}
-                            <a href="tel:+925190495102">
-                              (92-51) 9049 5102
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="contact-person-card">
-                      <div className="contact-person-top">
-                        <div className="contact-number">
-                          07
-                        </div>
-                        <div>
-                          <h3>
-                            Administration
-                          </h3>
-                          <span className="contact-office-label">
-                            In-Charge
-                          </span>
-                        </div>
-                      </div>
-                      <div className="contact-details">
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-user"></i>
-                          <div>
-                            <span>
-                              Name
-                            </span>
-                            {" "}
-                            <strong>
-                              Mr. Muhammad Sajid Rasool
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-briefcase"></i>
-                          <div>
-                            <span>
-                              Designation
-                            </span>
-                            {" "}
-                            <strong>
-                              In-Charge Administration
-                            </strong>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-envelope"></i>
-                          <div>
-                            <span>
-                              Email
-                            </span>
-                            {" "}
-                            <a href="mailto:inchargeadministration@comsats.edu.pk">
-                              Email
-                            </a>
-                          </div>
-                        </div>
-                        <div className="contact-detail">
-                          <i className="fa-solid fa-phone"></i>
-                          <div>
-                            <span>
-                              Phone
-                            </span>
-                            {" "}
-                            <a href="tel:+925190495032">
-                              (92-51) 9049 5318
+                            <a href="tel:+92966852742">
+                              0966-852742
                             </a>
                           </div>
                         </div>
@@ -519,7 +259,7 @@ export default function WebsiteContactUs() {
                           FIND US
                         </span>
                         <h3>
-                          COMSATS University Islamabad
+                          Linz College D.I.Khan
                         </h3>
                       </div>
                       <div className="contact-location-icon">

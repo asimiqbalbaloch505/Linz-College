@@ -12,13 +12,13 @@ export default function WebsiteAboutComsats() {
             <div className="container">
               <div className="inner-page-hero-content">
                 <span className="inner-page-eyebrow">
-                  COMSATS UNIVERSITY ISLAMABAD
+                  LINZ COLLEGE D.I.KHAN
                 </span>
                 <h1>
-                  About Islamabad Campus
+                  About Linz College
                 </h1>
                 <p>
-                  Discover your Potential; Shape your Future
+                  Knowledge That Lights the Way
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -28,7 +28,7 @@ export default function WebsiteAboutComsats() {
                   <i className="fa-solid fa-chevron-right"></i>
                   {" "}
                   <span>
-                    About Islamabad Campus
+                    About Linz College
                   </span>
                 </div>
               </div>
@@ -40,30 +40,30 @@ export default function WebsiteAboutComsats() {
                 <div className="col-lg-6">
                   <div className="about-inner-content reveal active">
                     <span className="section-tag">
-                      ABOUT CUI ISLAMABAD
+                      ABOUT LINZ COLLEGE
                     </span>
                     <h2>
-                      An Innovative Institution
+                      A Residential Institution
                       {" "}
                       <span>
-                        of Learning
+                        in D.I.Khan
                       </span>
                     </h2>
                     <p>
-                      COMSATS University Islamabad (CUI) is an innovative institution of learning and development. The main focus of CUI in the coming years will be to transform CUI to meet the challenges of a rapidly changing technological environment as well as societal needs through the best affordable academic programs at par with leading global standards, within Pakistan.
+                      Linz College D.I.Khan was established in April 2015. The college is a residential institution affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan, offering education from Playgroup to FSc.
                     </p>
                     <p>
-                      The vision and mission of the University provide the foundation for its academic, research and community-oriented activities.
+                      The college has been showing brilliant results in both SSC and HSSC.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="about-image-grid reveal active">
                     <div className="about-image-main">
-                      <img src="/images/img-22cf772946.jpg" alt="COMSATS Islamabad Campus" />
+                      <img src="/images/linz/building.jpg" alt="Linz College D.I.Khan building" />
                     </div>
                     <div className="about-image-small">
-                      <img src="/images/img-4fffb3c766.jpg" alt="COMSATS Islamabad Campus" />
+                      <img src="/images/linz/classroom.jpg" alt="Linz College D.I.Khan classroom" />
                     </div>
                     <div className="about-image-accent"></div>
                   </div>
@@ -77,13 +77,13 @@ export default function WebsiteAboutComsats() {
                 <div className="col-lg-5">
                   <div className="vision-heading reveal active">
                     <span className="section-tag">
-                      OUR VISION
+                      OUR AIM
                     </span>
                     <h2>
-                      Building a
+                      Quality Education
                       {" "}
                       <span>
-                        National Presence
+                        for D.I.Khan
                       </span>
                     </h2>
                     <div className="vision-number">
@@ -94,10 +94,10 @@ export default function WebsiteAboutComsats() {
                 <div className="col-lg-7">
                   <div className="vision-content reveal active">
                     <p>
-                      The COMSATS University Islamabad envisions assuming a truly national character for itself in the years to come. It envisions having presence in all provinces of the country.
+                      It was the cherished desire of our founder, Hameed Ramzan Qarni, to establish a quality residential institution in D.I.Khan where students can get a quality education.
                     </p>
                     <p>
-                      It sees for itself a position among the top five universities in the country; among top 100 universities in the developing countries and top 300, 200, 100 universities in the world respectively in the 5, 10 and 15-years' time horizon.
+                      Today the college offers Playgroup to Matric, FSc Pre-Medical, FSc Pre-Engineering and ICS, with science and computer labs on campus.
                     </p>
                   </div>
                 </div>
@@ -108,17 +108,17 @@ export default function WebsiteAboutComsats() {
             <div className="container">
               <div className="section-heading-center reveal active">
                 <span className="section-tag">
-                  OUR MISSION
+                  WHAT WE OFFER
                 </span>
                 <h2>
-                  Knowledge with
+                  Learning at
                   {" "}
                   <span>
-                    Purpose
+                    Linz College
                   </span>
                 </h2>
                 <p>
-                  The University's mission is built around three interconnected areas of excellence.
+                  Education from Playgroup to FSc, in a residential campus with labs and a library.
                 </p>
               </div>
               <div className="row g-4 mt-3">
@@ -131,12 +131,12 @@ export default function WebsiteAboutComsats() {
                       01
                     </span>
                     <h3>
-                      Research &amp; Discovery
+                      School Section
                     </h3>
                     <p>
-                      Generate and preserve knowledge, understanding and creativity by triggering enquiry, conducting high-quality research and promoting scholarship that benefits students, scholars and communities.
+                      Playgroup, Primary, Middle and Matric (SSC) classes that build a strong foundation for every student.
                     </p>
-                    <a href="/unavailable">
+                    <a href="/academics">
                       Learn More
                       {" "}
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -152,10 +152,10 @@ export default function WebsiteAboutComsats() {
                       02
                     </span>
                     <h3>
-                      Teaching &amp; Learning
+                      Intermediate (HSSC)
                     </h3>
                     <p>
-                      Share knowledge, understanding and creativity through a broad range of educational programs in a diverse community of learners and teachers.
+                      FSc Pre-Medical, FSc Pre-Engineering and ICS for students preparing for higher education.
                     </p>
                     <a href="/academics">
                       Learn More
@@ -173,10 +173,10 @@ export default function WebsiteAboutComsats() {
                       03
                     </span>
                     <h3>
-                      Outreach &amp; Public Service
+                      Labs &amp; Facilities
                     </h3>
                     <p>
-                      Extend, apply and exchange knowledge between the University and society by applying scholarly expertise to social and technological problems.
+                      Physics, Chemistry, Biology and Computer labs, a library, sports and a residential hostel.
                     </p>
                     <a href="#">
                       Learn More
@@ -193,14 +193,14 @@ export default function WebsiteAboutComsats() {
               <div className="row align-items-center g-5">
                 <div className="col-lg-6">
                   <div className="history-image reveal active">
-                    <img src="/images/img-7db8c98273.jpg" alt="History of COMSATS University Islamabad" />
+                    <img src="/images/linz/result.jpg" alt="Linz College D.I.Khan results" />
                     <div className="history-image-overlay">
                       <span>
                         SINCE
                       </span>
                       {" "}
                       <strong>
-                        1998
+                        2015
                       </strong>
                     </div>
                   </div>
@@ -208,32 +208,32 @@ export default function WebsiteAboutComsats() {
                 <div className="col-lg-6">
                   <div className="history-content reveal active">
                     <span className="section-tag">
-                      OUR JOURNEY
+                      OUR STORY
                     </span>
                     <h2>
-                      A Legacy of
+                      Built on a
                       {" "}
                       <span>
-                        Excellence
+                        Founder's Vision
                       </span>
                     </h2>
                     <p>
-                      The COMSATS University Islamabad (CUI) was established in 1998, as COMSATS Institute of Information Technology (CIIT), as a project of the Commission on Science and Technology for Sustainable Development in the South (COMSATS).
+                      Linz College D.I.Khan was established in April 2015 by Hameed Ramzan Qarni, who wished to create a quality residential institution in D.I.Khan.
                     </p>
                     <p>
-                      CIIT had the status of a public sector degree awarding higher education institution and was given charter by the Federal Government in August 2000. Later, CIIT was upgraded to a Federally Chartered University in April 2018 under the COMSATS University Islamabad.
+                      The college is affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan.
                     </p>
                     <p>
-                      CUI functions under the governance of the Senate, which is chaired by the Chancellor of the University.
+                      Our students have shown brilliant results in both SSC and HSSC.
                     </p>
                     <div className="history-campuses">
                       <div>
                         <strong>
-                          08
+                          4
                         </strong>
                         {" "}
                         <span>
-                          Campuses
+                          Science &amp; Computer Labs
                         </span>
                       </div>
                       <div>
@@ -242,12 +242,12 @@ export default function WebsiteAboutComsats() {
                         </strong>
                         {" "}
                         <span>
-                          National University
+                          Residential Campus
                         </span>
                       </div>
                     </div>
-                    <a href="/about" className="inner-page-btn">
-                      Read Full History
+                    <a href="/facilities" className="inner-page-btn">
+                      See Facilities
                       {" "}
                       <i className="fa-solid fa-arrow-right-long"></i>
                     </a>
@@ -260,212 +260,40 @@ export default function WebsiteAboutComsats() {
             <div className="container">
               <div className="section-heading-center light reveal active">
                 <span className="section-tag">
-                  LEADERSHIP &amp; GOVERNANCE
+                  LEADERSHIP
                 </span>
                 <h2>
-                  Islamabad Campus
+                  Our
                   {" "}
                   <span>
                     Leadership
                   </span>
                 </h2>
                 <p>
-                  Meet the leadership guiding the University and Islamabad Campus.
+                  Meet the person guiding Linz College D.I.Khan.
                 </p>
               </div>
               <div className="row g-4 mt-3">
                 <div className="col-lg-6">
                   <div className="about-leader-card reveal active">
                     <div className="leader-image">
-                      <img src="/images/img-9d91afc2bd.jpg" alt="Prof. Dr. Raheel Qamar" />
+                      <img src="/images/linz/principal.jpg" alt="Hameed Ramzan Qarni" />
                     </div>
                     <div className="leader-content">
                       <span>
-                        RECTOR
+                        PRINCIPAL &amp; FOUNDER
                       </span>
                       <h3>
-                        Prof. Dr. Raheel Qamar, T.I.
+                        Hameed Ramzan Qarni
                       </h3>
                       <p>
-                        Rector, COMSATS University Islamabad
+                        Principal, Linz College D.I.Khan
                       </p>
                       <a href="/principal">
-                        View Profile
+                        Read Message
                         {" "}
                         <i className="fa-solid fa-arrow-right-long"></i>
                       </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="about-leader-card reveal active">
-                    <div className="leader-image">
-                      <img src="/images/img-ab021b793e.jpg" alt="Prof. Dr. Majid Iqbal Khan" />
-                    </div>
-                    <div className="leader-content">
-                      <span>
-                        INCHARGE, ISLAMABAD CAMPUS
-                      </span>
-                      <h3>
-                        Prof. Dr. Majid Iqbal Khan
-                      </h3>
-                      <p>
-                        InCharge, COMSATS Islamabad Campus
-                      </p>
-                      <a href="/principal">
-                        View Profile
-                        {" "}
-                        <i className="fa-solid fa-arrow-right-long"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="about-admin-section" id="administrative-offices">
-            <div className="container">
-              <div className="row align-items-center g-5">
-                <div className="col-lg-7">
-                  <div className="admin-content reveal active">
-                    <span className="section-tag">
-                      CAMPUS ORGANIZATION
-                    </span>
-                    <h2>
-                      Administrative
-                      {" "}
-                      <span>
-                        Offices
-                      </span>
-                    </h2>
-                    <p>
-                      Islamabad Campus has a range of non-academic departments, centers and offices supporting students, faculty and the University's administrative operations.
-                    </p>
-                    <div className="admin-list">
-                      <a href="#">
-                        <i className="fa-solid fa-building"></i>
-                        {" "}
-                        Administration Department
-                      </a>
-                      {" "}
-                      <a href="/admissions">
-                        <i className="fa-solid fa-user-graduate"></i>
-                        {" "}
-                        Admission Office
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=22&&Cid=1&&Did=22&&Dept=Academics"} target="_blank">
-                        <i className="fa-solid fa-book-open"></i>
-                        {" "}
-                        Academics Department
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=18&&Cid=1&&Did=18&&Dept=Accounts"} target="_blank">
-                        <i className="fa-solid fa-calculator"></i>
-                        {" "}
-                        Accounts Office
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-lightbulb"></i>
-                        {" "}
-                        Business Incubation Center
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-briefcase"></i>
-                        {" "}
-                        Career Development Center
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-earth-asia"></i>
-                        {" "}
-                        China Study Center
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=23&&Cid=1&&Did=23&&Dept=Examination"} target="_blank">
-                        <i className="fa-solid fa-file-circle-check"></i>
-                        {" "}
-                        Examination Department
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=76&&Cid=1&&Did=76&&Dept=Internal%20Audit"} target="_blank">
-                        <i className="fa-solid fa-shield-halved"></i>
-                        {" "}
-                        Internal Audit Department
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=24&&Cid=1&&Did=24&&Dept=Human%20Resource"} target="_blank">
-                        <i className="fa-solid fa-users"></i>
-                        {" "}
-                        Human Resource Department
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-laptop-code"></i>
-                        {" "}
-                        Information Technology Center
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-book"></i>
-                        {" "}
-                        Junaid Zaidi Library
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-heart-pulse"></i>
-                        {" "}
-                        Medical Center
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=74&&Cid=1&&Did=74&&Dept=Procurement%20Office"} target="_blank">
-                        <i className="fa-solid fa-cart-shopping"></i>
-                        {" "}
-                        Procurement Office
-                      </a>
-                      {" "}
-                      <a href={"https://ww2.comsats.edu.pk/faculty/DWFaculty.aspx?id=17&&Cid=1&&Did=17&&Dept=Operation%20&%20Maintenance"} target="_blank">
-                        <i className="fa-solid fa-screwdriver-wrench"></i>
-                        {" "}
-                        Operation &amp; Maintenance
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-user-group"></i>
-                        {" "}
-                        Student Affairs Department
-                      </a>
-                      {" "}
-                      <a href="#">
-                        <i className="fa-solid fa-shield"></i>
-                        {" "}
-                        Security Office
-                      </a>
-                      {" "}
-                      <a href="/unavailable">
-                        <i className="fa-solid fa-bus"></i>
-                        {" "}
-                        Transport Office
-                      </a>
-                    </div>
-                    <a href="#administrative-offices" className="inner-page-btn">
-                      View All Administrative Offices
-                      {" "}
-                      <i className="fa-solid fa-arrow-right-long"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-5">
-                  <div className="admin-image reveal active">
-                    <img src="/images/img-82e90c38f3.jpg" alt="Administrative Offices" />
-                    <div className="admin-image-caption">
-                      <i className="fa-solid fa-building-columns"></i>
-                      {" "}
-                      <span>
-                        Islamabad Campus
-                      </span>
                     </div>
                   </div>
                 </div>

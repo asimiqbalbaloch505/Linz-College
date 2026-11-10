@@ -12,13 +12,13 @@ export default function WebsiteComsatsAdmissions() {
             <div className="container">
               <div className="inner-page-hero-content">
                 <span className="inner-page-eyebrow">
-                  COMSATS UNIVERSITY ISLAMABAD
+                  LINZ COLLEGE D.I.KHAN
                 </span>
                 <h1>
                   Admissions
                 </h1>
                 <p>
-                  Unlock your Potential; Shape your Future
+                  Download the admission form, or message us on WhatsApp.
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -44,7 +44,7 @@ export default function WebsiteComsatsAdmissions() {
                   Your Journey Starts Here
                 </h2>
                 <p>
-                  Explore the opportunities waiting for you at COMSATS University Islamabad.
+                  Explore the opportunities waiting for you at Linz College D.I.Khan.
                 </p>
               </div>
               <div className="admission-stats-strip">
@@ -54,10 +54,10 @@ export default function WebsiteComsatsAdmissions() {
                   </div>
                   <div className="admission-stat-content">
                     <div className="admission-stat-number">
-                      8,677
+                      2015
                     </div>
                     <div className="admission-stat-title">
-                      Undergraduate Students
+                      Established
                     </div>
                   </div>
                 </div>
@@ -67,23 +67,23 @@ export default function WebsiteComsatsAdmissions() {
                   </div>
                   <div className="admission-stat-content">
                     <div className="admission-stat-number">
-                      1,911
+                      4
                     </div>
                     <div className="admission-stat-title">
-                      Graduate Students
+                      Science &amp; Computer Labs
                     </div>
                   </div>
                 </div>
-                <a href="/unavailable" className="admission-stat admission-stat-link">
+                <a target="_blank" rel="noopener noreferrer" href="/downloads/admission-form.pdf" className="admission-stat admission-stat-link">
                   <div className="admission-stat-icon admission-stat-icon-gold">
                     <i className="fa-solid fa-chart-column"></i>
                   </div>
                   <div className="admission-stat-content">
                     <div className="admission-stat-link-title">
-                      Class Profile
+                      Admission Form
                     </div>
                     <div className="admission-stat-link-text">
-                      View student profile
+                      Download PDF
                     </div>
                   </div>
                   <i className="fa-solid fa-arrow-right admission-stat-arrow"></i>
@@ -96,13 +96,13 @@ export default function WebsiteComsatsAdmissions() {
               <div className="row align-items-center g-5">
                 <div className="col-lg-5">
                   <div className="admissions-welcome-visual">
-                    <img src="/images/img-d03cc94bea.jpg" alt="COMSATS University Islamabad Admissions" />
+                    <img src="/images/linz/building.jpg" alt="Linz College D.I.Khan building" />
                     <div className="admissions-welcome-accent"></div>
                     <div className="admissions-welcome-badge">
                       <i className="fa-solid fa-graduation-cap"></i>
                       <div>
                         <span>
-                          CUI ISLAMABAD
+                          LINZ COLLEGE D.I.KHAN
                         </span>
                         {" "}
                         <strong>
@@ -125,10 +125,10 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </h2>
                     <p className="admissions-welcome-intro">
-                      COMSATS University Islamabad welcomes students from diverse socio-economic backgrounds and provides opportunities to pursue higher education on merit.
+                      Linz College welcomes students who want a quality education in a residential campus, from Playgroup to FSc.
                     </p>
                     <p>
-                      At CUI Islamabad, students become part of a vibrant academic community where knowledge, innovation and personal growth come together. Explore our admission opportunities and take the first step towards shaping your future.
+                      At Linz College, students become part of a caring academic community where learning, character and personal growth come together. Explore our programs and take the first step towards your future.
                     </p>
                     <div className="admissions-welcome-highlights">
                       <div className="welcome-highlight">
@@ -137,11 +137,11 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Merit-Based
+                            Quality Education
                           </strong>
                           {" "}
                           <span>
-                            Admission opportunities based on merit
+                            Playgroup to Matric and FSc
                           </span>
                         </div>
                       </div>
@@ -151,11 +151,11 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Diverse Community
+                            Residential Campus
                           </strong>
                           {" "}
                           <span>
-                            Students from diverse backgrounds
+                            A place to study and stay
                           </span>
                         </div>
                       </div>
@@ -165,11 +165,11 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Future Focused
+                            Science Labs
                           </strong>
                           {" "}
                           <span>
-                            Opportunities to develop your potential
+                            Physics, Chemistry, Biology and Computer
                           </span>
                         </div>
                       </div>
@@ -194,12 +194,12 @@ export default function WebsiteComsatsAdmissions() {
                   Explore Admissions
                 </h2>
                 <p>
-                  Choose the academic pathway that matches your goals and take the next step towards your future.
+                  Choose the program that matches your goals and take the next step towards your future.
                 </p>
               </div>
               <div className="row g-4">
                 <div className="col-lg-4 col-md-6">
-                  <a href="/unavailable" className="admission-path-card">
+                  <a href="/academics" className="admission-path-card">
                     <div className="admission-path-top">
                       <div className="admission-path-icon">
                         <i className="fa-solid fa-graduation-cap"></i>
@@ -209,10 +209,10 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </div>
                     <h3>
-                      Undergraduate
+                      School
                     </h3>
                     <p>
-                      Explore undergraduate degree programs, admission requirements and opportunities to begin your academic journey.
+                      Playgroup, Primary, Middle and Matric (SSC) classes in a focused learning environment.
                     </p>
                     <div className="admission-path-link">
                       Explore Programs
@@ -222,7 +222,7 @@ export default function WebsiteComsatsAdmissions() {
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <a href="/unavailable" className="admission-path-card">
+                  <a href="/academics" className="admission-path-card">
                     <div className="admission-path-top">
                       <div className="admission-path-icon">
                         <i className="fa-solid fa-user-graduate"></i>
@@ -232,10 +232,10 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </div>
                     <h3>
-                      Graduate
+                      FSc
                     </h3>
                     <p>
-                      Discover graduate programs designed to advance your knowledge, skills and professional career.
+                      FSc Pre-Medical and Pre-Engineering for students who are preparing for higher education.
                     </p>
                     <div className="admission-path-link">
                       Explore Programs
@@ -245,7 +245,7 @@ export default function WebsiteComsatsAdmissions() {
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <a href="/unavailable" className="admission-path-card">
+                  <a href="/academics" className="admission-path-card">
                     <div className="admission-path-top">
                       <div className="admission-path-icon">
                         <i className="fa-solid fa-microscope"></i>
@@ -255,10 +255,10 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </div>
                     <h3>
-                      PhD Programs
+                      ICS
                     </h3>
                     <p>
-                      Pursue advanced research and contribute to knowledge through doctoral studies at CUI Islamabad.
+                      Intermediate in Computer Science (ICS) for students who want to build skills in computing.
                     </p>
                     <div className="admission-path-link">
                       Explore Programs
@@ -278,10 +278,10 @@ export default function WebsiteComsatsAdmissions() {
                   </p>
                 </div>
                 <div className="admission-resource-links">
-                  <a href="/unavailable">
+                  <a target="_blank" rel="noopener noreferrer" href="https://wa.me/923424803706">
                     <i className="fa-solid fa-file-invoice-dollar"></i>
                     {" "}
-                    Fee Structure
+                    Fee Details (WhatsApp)
                     {" "}
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -294,26 +294,26 @@ export default function WebsiteComsatsAdmissions() {
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   {" "}
-                  <a href="/unavailable">
+                  <a target="_blank" rel="noopener noreferrer" href="/downloads/admission-form.pdf">
                     <i className="fa-solid fa-rotate-left"></i>
                     {" "}
-                    HEC Refund Policy
+                    Admission Form
                     {" "}
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   {" "}
-                  <a href="/unavailable">
+                  <a href="/faq">
                     <i className="fa-solid fa-globe"></i>
                     {" "}
-                    International Students
+                    FAQs
                     {" "}
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   {" "}
-                  <a href="/unavailable">
+                  <a href="/contact">
                     <i className="fa-solid fa-list-check"></i>
                     {" "}
-                    How to Apply
+                    Contact Us
                     {" "}
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -325,11 +325,11 @@ export default function WebsiteComsatsAdmissions() {
                     READY TO TAKE THE NEXT STEP?
                   </span>
                   <h3>
-                    Start Your Application
+                    Apply to Linz College
                   </h3>
                 </div>
-                <a href="/unavailable" className="btn-campus-primary">
-                  Apply Now
+                <a target="_blank" rel="noopener noreferrer" href="/downloads/admission-form.pdf" className="btn-campus-primary">
+                  Download Admission Form
                   {" "}
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>
@@ -342,20 +342,20 @@ export default function WebsiteComsatsAdmissions() {
                 <div className="col-lg-6">
                   <div className="why-cui-content">
                     <div className="section-eyebrow">
-                      WHY COMSATS
+                      WHY LINZ
                     </div>
                     <h2>
                       More Than a
                       {" "}
                       <span>
-                        University
+                        College
                       </span>
                     </h2>
                     <p className="why-cui-intro">
-                      Join a community of future leaders from across Pakistan and discover opportunities that help you unlock your full potential.
+                      Join a caring college community in D.I.Khan and discover opportunities that help every student reach his or her potential.
                     </p>
                     <p>
-                      At COMSATS University Islamabad, students learn from experienced faculty and become part of an environment that encourages learning, growth and new possibilities.
+                      At Linz College, students learn from dedicated teachers in every department, from sciences to languages, and become part of an environment that encourages learning and growth.
                     </p>
                     <div className="why-cui-highlights">
                       <div className="why-cui-item">
@@ -364,11 +364,11 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Experienced Faculty
+                            Dedicated Teachers
                           </strong>
                           {" "}
                           <span>
-                            Learn from dedicated academics and researchers.
+                            Teachers for every department.
                           </span>
                         </div>
                       </div>
@@ -378,11 +378,11 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Diverse Community
+                            Residential Campus
                           </strong>
                           {" "}
                           <span>
-                            Connect with students from across Pakistan.
+                            A place to study and stay.
                           </span>
                         </div>
                       </div>
@@ -392,17 +392,17 @@ export default function WebsiteComsatsAdmissions() {
                         </div>
                         <div>
                           <strong>
-                            Opportunities to Grow
+                            Labs &amp; Library
                           </strong>
                           {" "}
                           <span>
-                            Develop knowledge, skills and your future potential.
+                            Hands-on learning and quiet study.
                           </span>
                         </div>
                       </div>
                     </div>
                     <a href="/about" className="btn-campus-primary">
-                      Discover CUI
+                      Discover Linz
                       {" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </a>
@@ -410,14 +410,14 @@ export default function WebsiteComsatsAdmissions() {
                 </div>
                 <div className="col-lg-6">
                   <div className="why-cui-visual">
-                    <img src="/images/img-9f0ebc12aa.jpg" alt="COMSATS University Islamabad Campus" />
+                    <img src="/images/linz/classroom.jpg" alt="Linz College D.I.Khan classroom" />
                     <div className="why-cui-overlay">
                       <div className="why-cui-overlay-icon">
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <div>
                         <span>
-                          CUI ISLAMABAD
+                          LINZ COLLEGE
                         </span>
                         {" "}
                         <strong>
@@ -428,445 +428,6 @@ export default function WebsiteComsatsAdmissions() {
                     <div className="why-cui-accent"></div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </section>
-          <section className="admission-glance-section">
-            <div className="container">
-              <div className="admission-glance-heading">
-                <div className="section-eyebrow">
-                  CUI AT A GLANCE
-                </div>
-                <h2>
-                  A University of
-                  {" "}
-                  <span>
-                    Opportunity
-                  </span>
-                </h2>
-                <p>
-                  Discover the scale, academic strength and opportunities that make COMSATS University Islamabad a destination for ambitious students.
-                </p>
-              </div>
-              <div className="admission-glance-grid">
-                <div className="glance-stat">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-building-columns"></i>
-                    </div>
-                    <span>
-                      01
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    7
-                  </div>
-                  <div className="glance-stat-title">
-                    Campuses
-                  </div>
-                </div>
-                <div className="glance-stat">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-layer-group"></i>
-                    </div>
-                    <span>
-                      02
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    6
-                  </div>
-                  <div className="glance-stat-title">
-                    Faculties
-                  </div>
-                </div>
-                <div className="glance-stat glance-stat-featured">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-users"></i>
-                    </div>
-                    <span>
-                      03
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    13,000
-                  </div>
-                  <div className="glance-stat-title">
-                    Enrolled Students
-                  </div>
-                </div>
-                <div className="glance-stat">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <span>
-                      04
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    117
-                  </div>
-                  <div className="glance-stat-title">
-                    Degree Programs
-                  </div>
-                </div>
-                <div className="glance-stat">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <span>
-                      05
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    357
-                  </div>
-                  <div className="glance-stat-title">
-                    PhD Faculty
-                  </div>
-                </div>
-                <div className="glance-stat glance-stat-scholarship">
-                  <div className="glance-stat-top">
-                    <div className="glance-stat-icon">
-                      <i className="fa-solid fa-award"></i>
-                    </div>
-                    <span>
-                      06
-                    </span>
-                  </div>
-                  <div className="glance-stat-number">
-                    16,231
-                  </div>
-                  <div className="glance-stat-title">
-                    Scholarships
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="admission-timeline-section">
-            <div className="container">
-              <div className="admission-timeline-heading">
-                <div className="section-eyebrow">
-                  IMPORTANT DATES
-                </div>
-                <h2>
-                  Fall 2026
-                  {" "}
-                  <span>
-                    Admission Timeline
-                  </span>
-                </h2>
-                <p>
-                  Keep track of the key admission milestones for Fall 2026 at COMSATS University Islamabad Campus.
-                </p>
-              </div>
-              <div className="admission-timeline">
-                <div className="timeline-item">
-                  <div className="timeline-date">
-                    <strong>
-                      31
-                    </strong>
-                    {" "}
-                    <span>
-                      MAY
-                    </span>
-                  </div>
-                  <div className="timeline-marker">
-                    <i className="fa-solid fa-door-open"></i>
-                  </div>
-                  <div className="timeline-content">
-                    <span className="timeline-step">
-                      STEP 01
-                    </span>
-                    <h3>
-                      Admissions Open
-                    </h3>
-                    <p>
-                      Online applications open for Fall 2026 admissions.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-item">
-                  <div className="timeline-date">
-                    <strong>
-                      08
-                    </strong>
-                    {" "}
-                    <span>
-                      JUL
-                    </span>
-                  </div>
-                  <div className="timeline-marker">
-                    <i className="fa-solid fa-file-circle-check"></i>
-                  </div>
-                  <div className="timeline-content">
-                    <span className="timeline-step">
-                      STEP 02
-                    </span>
-                    <h3>
-                      Application Deadline
-                    </h3>
-                    <p>
-                      Last date to submit your admission application.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-item">
-                  <div className="timeline-date">
-                    <strong>
-                      28
-                    </strong>
-                    {" "}
-                    <span>
-                      JUL
-                    </span>
-                  </div>
-                  <div className="timeline-marker">
-                    <i className="fa-solid fa-list-check"></i>
-                  </div>
-                  <div className="timeline-content">
-                    <span className="timeline-step">
-                      STEP 03
-                    </span>
-                    <h3>
-                      1st Merit List
-                    </h3>
-                    <p>
-                      Announcement of the first merit list for Fall 2026.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-item">
-                  <div className="timeline-date">
-                    <strong>
-                      06
-                    </strong>
-                    {" "}
-                    <span>
-                      SEP
-                    </span>
-                  </div>
-                  <div className="timeline-marker">
-                    <i className="fa-solid fa-people-group"></i>
-                  </div>
-                  <div className="timeline-content">
-                    <span className="timeline-step">
-                      STEP 04
-                    </span>
-                    <h3>
-                      Orientation
-                    </h3>
-                    <p>
-                      Welcome and orientation for newly admitted students.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-item">
-                  <div className="timeline-date">
-                    <strong>
-                      07
-                    </strong>
-                    {" "}
-                    <span>
-                      SEP
-                    </span>
-                  </div>
-                  <div className="timeline-marker">
-                    <i className="fa-solid fa-book-open-reader"></i>
-                  </div>
-                  <div className="timeline-content">
-                    <span className="timeline-step">
-                      STEP 05
-                    </span>
-                    <h3>
-                      Classes Begin
-                    </h3>
-                    <p>
-                      Commencement of classes for the Fall 2026 semester.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="timeline-footer">
-                <div className="timeline-footer-note">
-                  <i className="fa-solid fa-circle-info"></i>
-                  {" "}
-                  <span>
-                    Plan ahead and complete your application before the closing date.
-                  </span>
-                </div>
-                <a href="/unavailable" className="btn-campus-primary">
-                  Apply Now
-                  {" "}
-                  <i className="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </section>
-          <section className="admission-test-info-section">
-            <div className="container">
-              <div className="admission-test-info-heading">
-                <div className="section-eyebrow">
-                  ENTRY TEST INFORMATION
-                </div>
-                <h2>
-                  NAT / NTS
-                  {" "}
-                  <span>
-                    Test Information
-                  </span>
-                </h2>
-                <p>
-                  Important test dates and information for applicants seeking admission to CUI Islamabad Campus.
-                </p>
-              </div>
-              <div className="row g-4">
-                <div className="col-lg-6">
-                  <div className="admission-test-card">
-                    <div className="admission-test-card-header">
-                      <div className="admission-test-card-icon">
-                        <i className="fa-solid fa-building-columns"></i>
-                      </div>
-                      <div>
-                        <span>
-                          CUI ISLAMABAD CAMPUS
-                        </span>
-                        <h3>
-                          On-Campus Entry Test
-                        </h3>
-                      </div>
-                    </div>
-                    <div className="admission-test-card-body">
-                      <p>
-                        Candidates can appear in the entry test conducted at the CUI Islamabad Campus.
-                      </p>
-                      <div className="test-date-label">
-                        TEST DATES
-                      </div>
-                      <div className="test-date-cards">
-                        <div className="test-date-card">
-                          <strong>
-                            05
-                          </strong>
-                          {" "}
-                          <span>
-                            JUL
-                          </span>
-                        </div>
-                        <div className="test-date-card">
-                          <strong>
-                            18
-                          </strong>
-                          {" "}
-                          <span>
-                            JUL
-                          </span>
-                        </div>
-                        <div className="test-date-card">
-                          <strong>
-                            19
-                          </strong>
-                          {" "}
-                          <span>
-                            JUL
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="admission-test-card-footer">
-                      <span>
-                        On Campus
-                      </span>
-                      {" "}
-                      <i className="fa-solid fa-location-dot"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="admission-test-card admission-test-card-gold">
-                    <div className="admission-test-card-header">
-                      <div className="admission-test-card-icon">
-                        <i className="fa-solid fa-file-pen"></i>
-                      </div>
-                      <div>
-                        <span>
-                          NATIONAL TESTING SERVICE
-                        </span>
-                        <h3>
-                          NTS Test
-                        </h3>
-                      </div>
-                    </div>
-                    <div className="admission-test-card-body">
-                      <p>
-                        Applicants may also appear in the NTS test according to the announced schedule.
-                      </p>
-                      <div className="test-date-label">
-                        TEST DATES
-                      </div>
-                      <div className="test-date-cards">
-                        <div className="test-date-card">
-                          <strong>
-                            14
-                          </strong>
-                          {" "}
-                          <span>
-                            JUN
-                          </span>
-                        </div>
-                        <div className="test-date-card">
-                          <strong>
-                            12
-                          </strong>
-                          {" "}
-                          <span>
-                            JUL
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="admission-test-card-footer">
-                      <span>
-                        NTS
-                      </span>
-                      {" "}
-                      <i className="fa-solid fa-calendar-days"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="admission-test-note">
-                <div className="admission-test-note-icon">
-                  <i className="fa-solid fa-circle-info"></i>
-                </div>
-                <div>
-                  <strong>
-                    Important Information
-                  </strong>
-                  <p>
-                    Applicants are advised to check the official admissions portal for the latest test schedule, eligibility requirements and application details before appearing in the test.
-                  </p>
-                </div>
-              </div>
-              <div className="admission-test-cta">
-                <div>
-                  <span>
-                    READY TO APPLY?
-                  </span>
-                  <h3>
-                    Start Your Admission Application
-                  </h3>
-                </div>
-                <a href="/unavailable" className="btn-campus-primary">
-                  Apply Now
-                  {" "}
-                  <i className="fa-solid fa-arrow-right"></i>
-                </a>
               </div>
             </div>
           </section>
@@ -884,7 +445,7 @@ export default function WebsiteComsatsAdmissions() {
                   </span>
                 </h2>
                 <p>
-                  Find answers, watch helpful admission videos, or explore the Islamabad Campus before you begin your journey.
+                  Find answers to common questions, or message us on WhatsApp for admission help.
                 </p>
               </div>
               <div className="row g-3">
@@ -902,7 +463,7 @@ export default function WebsiteComsatsAdmissions() {
                       Frequently Asked Questions
                     </h3>
                     <p>
-                      Find answers to common questions about admissions, programs and the application process.
+                      Find answers to common questions about admissions, programs and the college.
                     </p>
                     <div className="admission-help-link">
                       View FAQs
@@ -912,7 +473,7 @@ export default function WebsiteComsatsAdmissions() {
                   </a>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <a href="/unavailable" className="admission-help-card">
+                  <a target="_blank" rel="noopener noreferrer" href="https://wa.me/923424803706" className="admission-help-card">
                     <div className="admission-help-card-top">
                       <div className="admission-help-icon">
                         <i className="fa-solid fa-circle-play"></i>
@@ -922,13 +483,13 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </div>
                     <h3>
-                      Video FAQs
+                      WhatsApp Enquiry
                     </h3>
                     <p>
-                      Watch helpful videos covering frequently asked admission questions and guidance.
+                      Message us for admission information, fees and other details.
                     </p>
                     <div className="admission-help-link">
-                      Watch Videos
+                      Message Us
                       {" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </div>
@@ -945,13 +506,13 @@ export default function WebsiteComsatsAdmissions() {
                       </span>
                     </div>
                     <h3>
-                      Virtual Tour
+                      Visit Our Campus
                     </h3>
                     <p>
-                      Explore the Islamabad Campus and get a feel for the environment before joining CUI.
+                      Call us or message us to arrange a visit to Linz College D.I.Khan.
                     </p>
                     <div className="admission-help-link">
-                      Explore Campus
+                      Main Diyal Road, D.I.Khan
                       {" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </div>
@@ -973,172 +534,6 @@ export default function WebsiteComsatsAdmissions() {
                 </div>
                 <a href="/contact" className="admission-help-contact">
                   Contact Admissions
-                  {" "}
-                  <i className="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </section>
-          <section className="admissions-alumni-section">
-            <div className="container">
-              <div className="admissions-alumni-heading">
-                <div className="section-eyebrow">
-                  MEDIA &amp; INSIGHTS
-                </div>
-                <h2>
-                  Alumni
-                  {" "}
-                  <span>
-                    Testimonials
-                  </span>
-                </h2>
-                <p>
-                  Watch highlights, lectures, and student experiences from COMSATS University Islamabad.
-                </p>
-              </div>
-              <div className="row g-4">
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/7jF82v5w_TE" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-7bdb1c97f1.jpg" alt="Ghazali Jamal" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Ghazali Jamal
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/_7LjS-oZJRU" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-f35ed384c1.jpg" alt="Ahmad Sohail" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Ahmad Sohail
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/KSLdxLVI4tM" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-256ce60b11.jpg" alt="Areeda Ayub" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Areeda Ayub
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/db6Cv01NROs" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-adbaa43c56.jpg" alt="Ali Sheikh" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Ali Sheikh
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/FjQ46z0qC1A" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-1ceab715af.jpg" alt="Ameena Nadeem" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Ameena Nadeem
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <a href="https://www.youtube.com/embed/OPnKWHaCW7M" className="admissions-alumni-video glightbox">
-                    <div className="alumni-video-thumb">
-                      <img src="/images/img-d1bf3db402.jpg" alt="Syeda Nida Zahra" loading="lazy" />
-                      <div className="alumni-video-overlay"></div>
-                      <div className="alumni-play-button">
-                        <i className="fa-solid fa-play"></i>
-                      </div>
-                      <div className="alumni-video-label">
-                        Alumni Story
-                      </div>
-                    </div>
-                    <div className="alumni-video-info">
-                      <strong>
-                        Syeda Nida Zahra
-                      </strong>
-                      {" "}
-                      <span>
-                        CUI Alumni
-                      </span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div className="admissions-alumni-footer">
-                <a href="https://www.youtube.com/@CUIislamabad" target="_blank" rel="noopener noreferrer" className="btn-campus-primary">
-                  View More
                   {" "}
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>
