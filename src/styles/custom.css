@@ -1,1 +1,15 @@
 /* custom styles go here */
+/* custom styles go here */
+
+/* FAQ: sirf active category dikhao */
+.faq-category { display: none; }
+.faq-category.active { display: block; }
+
+/* Anchor links fixed header ke neeche na chhupein */
+[id] { scroll-margin-top: 110px; }
+
+/* Admissions section: text colors */
+.islamabad-admissions-section .admission-card-content h3 { color: #163b49 !important; }
+.islamabad-admissions-section .admission-card-content p { color: #71838a !important; }
+.islamabad-admissions-section .admission-resource-links a { color: #526a73 !important; }
+.islamabad-admissions-section .admission-resource-links a:hover { color: #087f8c !important; }

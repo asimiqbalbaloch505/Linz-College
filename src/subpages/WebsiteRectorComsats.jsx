@@ -79,19 +79,10 @@ export default function WebsiteRectorComsats() {
                       I invite you to visit our campus, meet our staff and see for yourself how Linz can become a second home for your child.
                     </p>
                     <p>
-                      <span style={{ "fontSize": "0.9rem" }}>
-                        To our students, faculty, and staff: I encourage you to embrace ambition, curiosity, and collaboration. Every member of the CUI community plays a vital role in shaping our collective future. Our faculty, administration, and support systems remain fully committed to enabling your academic, professional, and personal growth.
-                      </span>
                     </p>
                     <p>
-                      <span style={{ "fontSize": "0.9rem" }}>
-                        I am confident that you will be inspired by the achievements, distinguished faculty, research output, and world-class infrastructure of COMSATS University Islamabad. Your engagement and feedback are invaluable as we continue to refine our mission of developing true professionals and global leaders in thought and action.
-                      </span>
                     </p>
                     <p>
-                      <span style={{ "fontSize": "0.9rem" }}>
-                        Thank you for choosing COMSATS University Islamabad as your partner in education, research, and innovation. Together, let us shape a future driven by knowledge, excellence, and a shared commitment to national and global progress.
-                      </span>
                     </p>
                     <p>
                       <span style={{ "fontSize": "0.9rem" }}>

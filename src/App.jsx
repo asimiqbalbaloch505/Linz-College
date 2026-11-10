@@ -30,10 +30,20 @@ export default function App() {
     return () => document.removeEventListener("click", onClick);
   }, [navigate]);
 
-  useEffect(() => {
+   useEffect(() => {
     if (!hash) { window.scrollTo(0, 0); return; }
-    const t = setTimeout(() => { try { document.querySelector(hash)?.scrollIntoView(); } catch {} }, 300);
-    return () => clearTimeout(t);
+    let tries = 0;
+    let again;
+    const id = setInterval(() => {
+      let el = null;
+      try { el = document.querySelector(hash); } catch { /* ignore */ }
+      if (el) {
+        el.scrollIntoView();
+        again = setTimeout(() => el.scrollIntoView(), 800);
+      }
+      if (el || ++tries > 20) clearInterval(id);
+    }, 150);
+    return () => { clearInterval(id); clearTimeout(again); };
   }, [pathname, hash]);
 
   return (
