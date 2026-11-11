@@ -12,13 +12,13 @@ export default function WebsiteComsatsNews() {
             <div className="container">
               <div className="inner-page-hero-content">
                 <span className="inner-page-eyebrow">
-                  COMSATS UNIVERSITY ISLAMABAD
+                  LINZ COLLEGE D.I.KHAN
                 </span>
                 <h1>
-                  Islamabad Campus News
+                  Campus News
                 </h1>
                 <p>
-                  Your University; Your News!
+                  Your College; Your News!
                   <br />
                   Stay Informed
                 </p>
@@ -61,20 +61,20 @@ export default function WebsiteComsatsNews() {
                     <div className="carousel-item sf-hidden"></div>
                     <div className="carousel-item sf-hidden"></div>
                     <div className="carousel-item active">
-                      <img src="data:application/octet-stream;base64," alt="Climate Change Seminar" />
+                      <img src="/images/linz/campus.jpg" alt="Prospectus and admission form" />
                       <div className="featured-news-overlay"></div>
                       <div className="featured-news-caption">
                         <span className="featured-news-badge">
-                          RESEARCH &amp; INNOVATION
+                          ADMISSIONS
                         </span>
                         <h2>
-                          National Seminar on Climate Change &amp; Resilience
+                          Prospectus and Admission Form Available to Download
                         </h2>
                         <p>
-                          Bringing together researchers, policymakers, and experts to discuss sustainable futures.
+                          Download the prospectus and admission form from our website, or message us on WhatsApp for details.
                         </p>
-                        <a href="/news" className="btn-campus-primary">
-                          View Details
+                        <a target="_blank" rel="noopener noreferrer" href="/downloads/prospectus.pdf" className="btn-campus-primary">
+                          Download Prospectus
                           {" "}
                           <i className="fa-solid fa-arrow-right"></i>
                         </a>
@@ -110,7 +110,7 @@ export default function WebsiteComsatsNews() {
                       </span>
                     </h2>
                     <p>
-                      Stay updated with the latest news, announcements, opportunities and achievements from COMSATS University Islamabad.
+                      Stay updated with the latest news, announcements and achievements from Linz College D.I.Khan.
                     </p>
                   </div>
                 </div>
@@ -119,23 +119,23 @@ export default function WebsiteComsatsNews() {
                 <div className="col-lg-4 col-md-6">
                   <article className="campus-news-card">
                     <div className="campus-news-image">
-                      <img src="data:," alt="MoU signing between COMSATS University Islamabad and SPS–SpinnLabs" />
+                      <img src="/images/linz/classroom.jpg" alt="Prospectus and admission form" />
                       {" "}
                       <span className="campus-news-date">
-                        15 Apr 2026
+                        Available now
                       </span>
                     </div>
                     <div className="campus-news-body">
                       <span className="campus-news-category">
-                        PARTNERSHIP
+                        ADMISSIONS
                       </span>
                       <h3>
-                        <a href="/unavailable">
-                          MoU signing between COMSATS University Islamabad and SPS–SpinnLabs
+                        <a target="_blank" rel="noopener noreferrer" href="/downloads/prospectus.pdf">
+                          Prospectus and Admission Form Available to Download
                         </a>
                       </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        Read More
+                      <a target="_blank" rel="noopener noreferrer" href="/downloads/admission-form.pdf" className="campus-news-link">
+                        Admission Form
                         {" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </a>
@@ -145,166 +145,10 @@ export default function WebsiteComsatsNews() {
                 <div className="col-lg-4 col-md-6">
                   <article className="campus-news-card">
                     <div className="campus-news-image">
-                      <img src="/images/img-93a6de3bf1.jpg" alt="GLOBAL ACADEMIC LEADERSHIP: COMSATS UNIVERSITY ISLAMABAD 2026 QS SUBJECT RANKINGS" />
+                      <img src="/images/linz/lab-computer.jpg" alt="Follow Linz College on social media" />
                       {" "}
                       <span className="campus-news-date">
-                        28 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        ACADEMIC EXCELLENCE
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          GLOBAL ACADEMIC LEADERSHIP: COMSATS UNIVERSITY ISLAMABAD 2026 QS SUBJECT RANKINGS
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View News
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="/images/img-efb96ed485.jpg" alt="From Paper to Progress: The University's Digital Governance Transformation" />
-                      {" "}
-                      <span className="campus-news-date">
-                        28 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        DIGITAL TRANSFORMATION
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          From Paper to Progress: The University's Digital Governance Transformation
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View News
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="/images/img-0570e8c1a2.jpg" alt="Global Excellence 2026: COMSATS University Islamabad Leading Pakistan in Academic Rankings" />
-                      {" "}
-                      <span className="campus-news-date">
-                        28 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        GLOBAL RANKINGS
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          Global Excellence 2026: COMSATS University Islamabad Leading Pakistan in Academic Rankings
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View Rankings
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="data:," alt="Position Available - Chief Scientific Officer" />
-                      {" "}
-                      <span className="campus-news-date">
-                        28 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        CAREER OPPORTUNITY
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          Position Available - Chief Scientific Officer
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View Details
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="/images/img-a96716bc88.jpg" alt="Research Associate for PSF Project" />
-                      {" "}
-                      <span className="campus-news-date">
-                        09 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        RESEARCH OPPORTUNITY
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          Research Associate for PSF Project (Dr. Muhammad Saeed)
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View Details
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="/images/img-4ddb3f6b2e.jpg" alt="Final Advertisement Senior Program officer International office" />
-                      {" "}
-                      <span className="campus-news-date">
-                        09 Mar 2026
-                      </span>
-                    </div>
-                    <div className="campus-news-body">
-                      <span className="campus-news-category">
-                        INTERNATIONAL OFFICE
-                      </span>
-                      <h3>
-                        <a href="/unavailable">
-                          Final Advertisement Senior Program Officer International Office
-                        </a>
-                      </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View Advertisement
-                        {" "}
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                  <article className="campus-news-card">
-                    <div className="campus-news-image">
-                      <img src="/images/img-ad573f0fdf.jpg" alt="Content Creator opportunity" />
-                      {" "}
-                      <span className="campus-news-date">
-                        05 Mar 2026
+                        Follow us
                       </span>
                     </div>
                     <div className="campus-news-body">
@@ -312,12 +156,12 @@ export default function WebsiteComsatsNews() {
                         SOCIAL MEDIA
                       </span>
                       <h3>
-                        <a href="/unavailable">
-                          Are you a content creator? Join the CUI social media team.
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/linzcollegedikhan/">
+                          Follow Linz College on TikTok and Instagram
                         </a>
                       </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        View Details
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@linz.college.d.i" className="campus-news-link">
+                        TikTok
                         {" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </a>
@@ -327,23 +171,23 @@ export default function WebsiteComsatsNews() {
                 <div className="col-lg-4 col-md-6">
                   <article className="campus-news-card">
                     <div className="campus-news-image">
-                      <img src="data:," alt="COMSATS University Islamabad Alumni Excellence Awards" />
+                      <img src="/images/linz/library.jpg" alt="Admission enquiries" />
                       {" "}
                       <span className="campus-news-date">
-                        15 Jan 2026
+                        Message us
                       </span>
                     </div>
                     <div className="campus-news-body">
                       <span className="campus-news-category">
-                        ALUMNI
+                        ENQUIRIES
                       </span>
                       <h3>
-                        <a href="/unavailable">
-                          COMSATS University Islamabad Alumni Excellence Awards
+                        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/923424803706">
+                          Admission Enquiries Are Welcome
                         </a>
                       </h3>
-                      <a href="/unavailable" className="campus-news-link">
-                        Read More
+                      <a target="_blank" rel="noopener noreferrer" href="https://wa.me/923424803706" className="campus-news-link">
+                        WhatsApp
                         {" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </a>

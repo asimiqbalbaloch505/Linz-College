@@ -13,3 +13,15 @@
 .islamabad-admissions-section .admission-card-content p { color: #71838a !important; }
 .islamabad-admissions-section .admission-resource-links a { color: #526a73 !important; }
 .islamabad-admissions-section .admission-resource-links a:hover { color: #087f8c !important; }
+/* Admissions (homepage): har card ka apna rang */
+.islamabad-admissions-section .row > [class*="col-"]:nth-child(1) .admission-path-card { --admission-accent: #087f8c; --admission-bg: #e9f8f8; }
+.islamabad-admissions-section .row > [class*="col-"]:nth-child(2) .admission-path-card { --admission-accent: #4f6fd8; --admission-bg: #eff3ff; }
+.islamabad-admissions-section .row > [class*="col-"]:nth-child(3) .admission-path-card { --admission-accent: #8a5db4; --admission-bg: #f6effb; }
+
+/* Inner pages: top banner ki photo Linz ki */
+.inner-page-hero {
+  background-image: linear-gradient(135deg, rgba(4, 36, 48, 0.92), rgba(7, 59, 76, 0.8)), url("/images/hero.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.inner-page-hero::before { background-image: none !important; }

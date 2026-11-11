@@ -113,7 +113,7 @@ export default function WebsiteJunaidZaidiLibrary() {
                         </span>
                         {" "}
                         <strong>
-                          Science and Computer Labs
+                          Physics Lab
                         </strong>
                       </div>
                     </div>
@@ -122,23 +122,209 @@ export default function WebsiteJunaidZaidiLibrary() {
                 <div className="col-lg-6">
                   <div className="library-intro-content">
                     <div className="section-eyebrow">
-                      HANDS-ON LEARNING
+                      SCIENCE LABS
                     </div>
                     <h2>
-                      Science &amp;
+                      Physics
                       {" "}
                       <span>
-                        Computer Labs
+                        Lab
                       </span>
                     </h2>
                     <p>
-                      Linz College has four labs: Physics, Chemistry, Biology and Computer.
+                      The Physics lab is where students of Matric and FSc see the ideas from their class in action.
                     </p>
                     <p>
-                      Students of Matric and FSc (Pre-Medical and Pre-Engineering) and ICS learn by doing, with practical work that supports what they study in class.
+                      Practical work helps students understand concepts better and prepares them for their exams.
                     </p>
                     <p>
-                      The Computer lab helps students build practical computer skills.
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="chemistry-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-chemistry.jpg" alt="Linz College chemistry lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Chemistry Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      SCIENCE LABS
+                    </div>
+                    <h2>
+                      Chemistry
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Chemistry lab gives students of Matric and FSc a place to learn through experiments and practical work.
+                    </p>
+                    <p>
+                      Hands-on practice helps students understand what they study in class and prepares them for their exams.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="biology-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-biology.jpg" alt="Linz College biology lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Biology Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      SCIENCE LABS
+                    </div>
+                    <h2>
+                      Biology
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Biology lab supports students of Matric and FSc Pre-Medical with practical work and observation.
+                    </p>
+                    <p>
+                      Hands-on learning helps students connect what they read in books with what they see.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="computer-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-computer.jpg" alt="Linz College computer lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Computer Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      COMPUTER SCIENCE
+                    </div>
+                    <h2>
+                      Computer
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Computer lab helps students of ICS and computer classes build practical computer skills.
+                    </p>
+                    <p>
+                      Regular practice on computers prepares students for their studies and for the future.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
                     </p>
                     <div className="library-actions">
                       <a href="/contact" className="btn-campus-primary">

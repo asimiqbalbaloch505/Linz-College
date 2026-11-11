@@ -12,13 +12,13 @@ export default function WebsiteCampusLife() {
             <div className="container">
               <div className="inner-page-hero-content">
                 <span className="inner-page-eyebrow">
-                  COMSATS UNIVERSITY ISLAMABAD
+                  LINZ COLLEGE D.I.KHAN
                 </span>
                 <h1>
-                  Islamabad Campus Life
+                  Campus Life
                 </h1>
                 <p>
-                  Discover, Connect, Thrive – Where Vibrant Campus Life Shapes Unforgettable Experiences
+                  Learn, grow and make lasting memories at Linz College.
                 </p>
                 <div className="inner-page-breadcrumb">
                   <a href="/">
@@ -37,7 +37,7 @@ export default function WebsiteCampusLife() {
           <section className="campus-life-banner-section">
             <div className="container">
               <div className="campus-life-banner">
-                <img src="/images/img-c3b62eaa8d.jpg" alt="COMSATS Islamabad Campus Life" />
+                <img src="/images/linz/classroom.jpg" alt="Campus life at Linz College D.I.Khan" />
                 <div className="campus-life-banner-overlay"></div>
                 <div className="campus-life-banner-content">
                   <span>
@@ -57,17 +57,17 @@ export default function WebsiteCampusLife() {
               <div className="row align-items-center g-5">
                 <div className="col-lg-6">
                   <div className="campus-life-feature-image">
-                    <img src="/images/img-c83887b183.jpg" alt="Students Affairs Department" />
+                    <img src="/images/linz/result.jpg" alt="Linz College students and results" />
                     <div className="campus-life-image-overlay"></div>
                     <div className="campus-life-image-badge">
                       <i className="fa-solid fa-users"></i>
                       <div>
                         <strong>
-                          Student Affairs
+                          Achievements
                         </strong>
                         {" "}
                         <span>
-                          Supporting Student Life
+                          Celebrating Our Students
                         </span>
                       </div>
                     </div>
@@ -76,26 +76,26 @@ export default function WebsiteCampusLife() {
                 <div className="col-lg-6">
                   <div className="campus-life-content">
                     <div className="section-eyebrow">
-                      STUDENT EXPERIENCE
+                      OUR ACHIEVEMENTS
                     </div>
                     <h2>
-                      Student
+                      Our
                       {" "}
                       <span>
-                        Affairs
+                        Achievements
                       </span>
                     </h2>
                     <p>
-                      Greetings to our vibrant university community! As you embark on your academic journey, we invite you to explore the multifaceted world of Student Affairs – a dynamic and essential hub dedicated to enriching your university experience.
+                      Linz College is proud of its students. Over the years our students have shown brilliant results in both SSC and HSSC, and some of them have achieved top positions in the board examinations.
                     </p>
                     <p>
-                      At the heart of campus life, our department is committed to nurturing a supportive environment where every student can thrive academically, socially, and personally.
+                      Every result is the outcome of the hard work of our students, the guidance of our teachers and the support of their parents.
                     </p>
                     <p>
-                      The office of Student Affairs is more than just an administrative entity; it's a key partner in your educational adventure. Our team is determined to provide services and resources designed to facilitate your academic pursuits and help you make the most of your university years.
+                      For more information about our results, please contact us.
                     </p>
-                    <a href="/unavailable" className="btn-campus-primary">
-                      Read More
+                    <a href="/contact" className="btn-campus-primary">
+                      Contact Us
                       {" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </a>
@@ -124,7 +124,7 @@ export default function WebsiteCampusLife() {
               <div className="row align-items-stretch g-4">
                 <div className="col-lg-7">
                   <div className="campus-sports-feature">
-                    <img src="/images/img-524ddbc268.jpg" alt="Sports and Wellness Facilities" />
+                    <img src="/images/linz/sports.jpg" alt="Sports at Linz College D.I.Khan" />
                     <div className="campus-sports-overlay"></div>
                     <div className="campus-sports-feature-content">
                       <span>
@@ -134,7 +134,7 @@ export default function WebsiteCampusLife() {
                         A Campus Life Beyond the Classroom
                       </h3>
                       <p>
-                        Discover opportunities to stay active, participate in sports and connect with the university community.
+                        Discover opportunities to stay active, participate in sports and connect with the Linz College community.
                       </p>
                     </div>
                   </div>
