@@ -20,7 +20,7 @@ export default function CampusLife() {
         <div className="row g-4 align-items-stretch mt-4">
           <div className="col-lg-6">
             <div className="campus-life-feature reveal active">
-              <img src="/images/linz/students.jpg" alt="Student life at Linz College D.I.Khan" />
+              <img src="/images/linz/cultural-event.jpg" alt="Linz College students performing at a college cultural event" />
               <div className="campus-life-feature-overlay"></div>
               <div className="campus-life-feature-content">
                 <span>
@@ -141,13 +141,14 @@ export default function CampusLife() {
             <i className="fa-solid fa-arrow-right"></i>
           </a>
           {" "}
-          <a href="/contact">
-            <i className="fa-solid fa-phone"></i>
+          <a href="/facilities#female-section">
+            <i className="fa-solid fa-person-dress"></i>
             {" "}
-            Contact Us
+            Separate Female Section
             {" "}
             <i className="fa-solid fa-arrow-right"></i>
           </a>
+
         </div>
       </div>
     </section>

@@ -38,8 +38,15 @@ export default function App() {
       let el = null;
       try { el = document.querySelector(hash); } catch { /* ignore */ }
       if (el) {
-        el.scrollIntoView();
-        again = setTimeout(() => el.scrollIntoView(), 800);
+        const facultiesSec = el.closest(".islamabad-faculties-section");
+        const target = facultiesSec ? (facultiesSec.querySelector(".islamabad-section-header") || facultiesSec) : el;
+        const offset = 115;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+        again = setTimeout(() => {
+          const t = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top: Math.max(0, t) });
+        }, 800);
       }
       if (el || ++tries > 20) clearInterval(id);
     }, 150);

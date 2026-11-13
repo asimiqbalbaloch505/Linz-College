@@ -1,21 +1,23 @@
-import WebsiteJunaidZaidiLibrary from "./WebsiteJunaidZaidiLibrary";
-import WebsiteAboutComsats from "./WebsiteAboutComsats";
-import WebsiteComsatsAcademics from "./WebsiteComsatsAcademics";
-import WebsiteComsatsNews from "./WebsiteComsatsNews";
+import FacilitiesPage from "./FacilitiesPage";
+import AboutPage from "./AboutPage";
+import AcademicsPage from "./AcademicsPage";
+import NewsPage from "./NewsPage";
 import WebsiteContactUs from "./WebsiteContactUs";
-import WebsiteComsatsAdmissions from "./WebsiteComsatsAdmissions";
+import AdmissionsPage from "./AdmissionsPage";
 import WebsiteCampusLife from "./WebsiteCampusLife";
 import WebsiteFrequentlyAskedQuestions from "./WebsiteFrequentlyAskedQuestions";
-import WebsiteRectorComsats from "./WebsiteRectorComsats";
+import PrincipalPage from "./PrincipalPage";
+import AlumniPage from "./AlumniPage";
 
 export default {
-  "website-junaid-zaidi-library": WebsiteJunaidZaidiLibrary,
-  "website-about-comsats": WebsiteAboutComsats,
-  "website-comsats-academics": WebsiteComsatsAcademics,
-  "website-comsats-news": WebsiteComsatsNews,
+  "website-junaid-zaidi-library": FacilitiesPage,
+  "website-about-comsats": AboutPage,
+  "website-comsats-academics": AcademicsPage,
+  "website-comsats-news": NewsPage,
   "website-contact-us": WebsiteContactUs,
-  "website-comsats-admissions": WebsiteComsatsAdmissions,
+  "website-comsats-admissions": AdmissionsPage,
   "website-campus-life": WebsiteCampusLife,
   "website-frequently-asked-questions": WebsiteFrequentlyAskedQuestions,
-  "website-rector-comsats": WebsiteRectorComsats,
+  "website-rector-comsats": PrincipalPage,
+  "linz-college-alumni": AlumniPage,
 };

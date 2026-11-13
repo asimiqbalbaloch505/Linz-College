@@ -35,21 +35,21 @@ export default function News() {
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
-              <a href="/downloads/prospectus.pdf" target="_blank" rel="noopener noreferrer" className="news-item">
+              <a href="/images/linz/admissions-open-2026-27.jpg" target="_blank" rel="noopener noreferrer" className="news-item">
                 <div className="news-image">
-                  <img src="/images/linz/building.jpg" alt="Prospectus and admission form" loading="lazy" />
+                  <img src="/images/linz/admissions-open-2026-27.jpg" alt="Linz College pre-first-year admissions announcement for 2026–27" loading="lazy" />
                 </div>
                 <div className="news-content">
                   <div className="news-date">
                     <i className="fa-regular fa-calendar"></i>
                     {" "}
-                    Available now
+                    Session 2026–27
                   </div>
                   <h4>
-                    Prospectus and Admission Form Available to Download
+                    Admissions Open for Pre-First Year
                   </h4>
                   <p>
-                    Download the prospectus and admission form from our website, or message us on WhatsApp for details.
+                    View the college announcement for pre-first-year admissions for the 2026–27 session.
                   </p>
                   <span className="news-read">
                     Read More
@@ -59,21 +59,21 @@ export default function News() {
                 </div>
               </a>
               {" "}
-              <a href="https://www.instagram.com/linzcollegedikhan/" className="news-item" rel="noopener noreferrer">
+              <a href="/images/linz/ssc-position-holder.jpg" target="_blank" className="news-item" rel="noopener noreferrer">
                 <div className="news-image">
-                  <img src="/images/linz/students.jpg" alt="Follow Linz College on social media" loading="lazy" />
+                  <img src="/images/linz/ssc-position-holder.jpg" alt="Linz College SSC Annual-I first-position award poster showing 1163 out of 1200 marks" loading="lazy" />
                 </div>
                 <div className="news-content">
                   <div className="news-date">
                     <i className="fa-regular fa-calendar"></i>
                     {" "}
-                    Follow us
+                    SSC Annual-I
                   </div>
                   <h4>
-                    Follow Linz College on TikTok and Instagram
+                    Celebrating an SSC First Position
                   </h4>
                   <p>
-                    Follow our TikTok and Instagram pages for the latest updates from the college.
+                    The supplied award poster recognises a first position with 1163 out of 1200 marks.
                   </p>
                   <span className="news-read">
                     Read More
@@ -83,21 +83,21 @@ export default function News() {
                 </div>
               </a>
               {" "}
-              <a href="https://wa.me/923424803706" className="news-item" rel="noopener noreferrer">
+              <a href="/images/linz/student-project-exhibition.jpg" target="_blank" className="news-item" rel="noopener noreferrer">
                 <div className="news-image">
-                  <img src="/images/linz/classroom.jpg" alt="Admission enquiries" loading="lazy" />
+                  <img src="/images/linz/student-project-exhibition.jpg" alt="Linz College students presenting a classroom project exhibition" loading="lazy" />
                 </div>
                 <div className="news-content">
                   <div className="news-date">
                     <i className="fa-regular fa-calendar"></i>
                     {" "}
-                    Message us
+                    College Activities
                   </div>
                   <h4>
-                    Admission Enquiries Are Welcome
+                    Students Share Their Project Work
                   </h4>
                   <p>
-                    Message us on WhatsApp or send an email for admission information.
+                    A glimpse of student participation and project work at Linz College.
                   </p>
                   <span className="news-read">
                     Read More

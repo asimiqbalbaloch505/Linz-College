@@ -108,7 +108,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      Linz College D.I.Khan, also known as Linz School &amp; College, in Dera Ismail Khan.
+                      Linz College D.I.Khan, located in Dera Ismail Khan.
                     </div>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      Which board is the college affiliated with?
+                      What programs does the college offer?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -168,7 +168,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      The college is affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan.
+                      Programs include Playgroup, Primary, Middle and Matric, along with FSc Pre-Medical, FSc Pre-Engineering and ICS.
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                     </span>
                     {" "}
                     <span className="faq-question-text">
-                      How are the results of the college?
+                      Where can I get information about college results?
                     </span>
                     {" "}
                     <span className="faq-toggle">
@@ -208,7 +208,7 @@ export default function WebsiteFrequentlyAskedQuestions() {
                   </button>
                   <div className="faq-answer">
                     <div className="faq-answer-inner">
-                      Our students have shown brilliant results in both SSC and HSSC.
+                      Please contact the college for current results information.
                     </div>
                   </div>
                 </div>

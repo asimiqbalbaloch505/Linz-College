@@ -1,13 +1,14 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Welcome from "./components/Welcome";
-import Videos from "./components/Videos";
 import Faculties from "./components/Faculties";
 import Admissions from "./components/Admissions";
 import CampusLife from "./components/CampusLife";
 import Library from "./components/Library";
 import News from "./components/News";
 import Leadership from "./components/Leadership";
+import WallOfFame from "./components/WallOfFame";
+import CollegeVideos from "./components/CollegeVideos";
 import Services from "./components/Services";
 import UsefulLinks from "./components/UsefulLinks";
 import Testimonials from "./components/Testimonials";
@@ -20,14 +21,15 @@ export default function Home() {
     <>
       <Header />
       <main role="main">
-        <Hero />
-        <Welcome />
-        <Videos />
-        <Faculties />
+      <Hero />
+      <Welcome />
+      <Faculties />
         <Admissions />
         <CampusLife />
         <Library />
         <News />
+        <WallOfFame />
+        <CollegeVideos />
         <Leadership />
         <Services />
         <UsefulLinks />

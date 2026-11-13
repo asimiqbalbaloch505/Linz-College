@@ -1,0 +1,593 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
+
+export default function FacilitiesPage() {
+  return (
+    <>
+      <form method="post" data-sf-nesting-track-id="1.1">
+        <Header />
+        <main>
+          <section className="inner-page-hero">
+            <div className="container">
+              <div className="inner-page-hero-content">
+                <span className="inner-page-eyebrow">
+                  LINZ COLLEGE D.I.KHAN
+                </span>
+                <h1>
+                  Facilities
+                </h1>
+                <p>
+                  A separate female section, library, science labs, sports, cafeteria and hostel.
+                </p>
+                <div className="inner-page-breadcrumb">
+                  <a href="/">
+                    Home
+                  </a>
+                  {" "}
+                  <i className="fa-solid fa-chevron-right"></i>
+                  {" "}
+                  <span>
+                    Facilities
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="library" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/library.jpg" alt="Linz College library" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Library
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      KNOWLEDGE &amp; LEARNING
+                    </div>
+                    <h2>
+                      Our
+                      {" "}
+                      <span>
+                        Library
+                      </span>
+                    </h2>
+                    <p>
+                      The Linz College library is an important part of student life, offering books and a quiet environment for study, reading and personal growth.
+                    </p>
+                    <p>
+                      Students can find books and reference material that support their school and college classes.
+                    </p>
+                    <p>
+                      A good library helps students build the habit of reading, which supports every subject and every exam.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="labs" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-physics.jpg" alt="Linz College physics lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Physics Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      SCIENCE LABS
+                    </div>
+                    <h2>
+                      Physics
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Physics lab is where students of Matric and FSc see the ideas from their class in action.
+                    </p>
+                    <p>
+                      Practical work helps students understand concepts better and prepares them for their exams.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="chemistry-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-chemistry.jpg" alt="Linz College chemistry lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Chemistry Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      SCIENCE LABS
+                    </div>
+                    <h2>
+                      Chemistry
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Chemistry lab gives students of Matric and FSc a place to learn through experiments and practical work.
+                    </p>
+                    <p>
+                      Hands-on practice helps students understand what they study in class and prepares them for their exams.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="biology-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-biology.jpg" alt="Linz College biology lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Biology Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      SCIENCE LABS
+                    </div>
+                    <h2>
+                      Biology
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Biology lab supports students of Matric and FSc Pre-Medical with practical work and observation.
+                    </p>
+                    <p>
+                      Hands-on learning helps students connect what they read in books with what they see.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="computer-lab" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/lab-computer.jpg" alt="Linz College computer lab" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Computer Lab
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      COMPUTER SCIENCE
+                    </div>
+                    <h2>
+                      Computer
+                      {" "}
+                      <span>
+                        Lab
+                      </span>
+                    </h2>
+                    <p>
+                      The Computer lab helps students of ICS and computer classes build practical computer skills.
+                    </p>
+                    <p>
+                      Regular practice on computers prepares students for their studies and for the future.
+                    </p>
+                    <p>
+                      For details about the lab, please contact us or message us on WhatsApp.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="female-section" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/female-section.jpg" alt="Female students presenting a project at Linz College" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-person-dress"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Female Section
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      LEARNING ENVIRONMENT
+                    </div>
+                    <h2>
+                      Separate
+                      {" "}
+                      <span>
+                        Female Section
+                      </span>
+                    </h2>
+                    <p>
+                      Linz College has a separate female section as part of its learning environment.
+                    </p>
+                    <p>
+                      Please contact the college for current class availability and further information.
+                    </p>
+                    <img className="female-section-office-image" src="/images/linz/campus-building-4.jpg" alt="Office area in the Linz College female section" loading="lazy" />
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="sports" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/sports-day.jpg" alt="Students taking part in an outdoor sports day at Linz College" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Sports
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      ACTIVE LIFE
+                    </div>
+                    <h2>
+                      Sports &amp;
+                      {" "}
+                      <span>
+                        Activities
+                      </span>
+                    </h2>
+                    <p>
+                      Sports and games are an important part of life at Linz College, helping students stay fit, work as a team and learn discipline.
+                    </p>
+                    <p>
+                      For details about the sports and activities currently available, please contact us.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="cafeteria" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/placeholder.svg" alt="Linz College cafeteria" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Cafeteria
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      CAMPUS SERVICES
+                    </div>
+                    <h2>
+                      Campus
+                      {" "}
+                      <span>
+                        Cafeteria
+                      </span>
+                    </h2>
+                    <p>
+                      The campus cafeteria offers snacks and meals for students, with a space to relax between classes.
+                    </p>
+                    <p>
+                      Menu and timings may change, so please contact us for current details.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="hostel" className="library-intro-section">
+            <div className="container">
+              <div className="row align-items-center g-5">
+                <div className="col-lg-6">
+                  <div className="library-intro-image">
+                    <img src="/images/linz/placeholder.svg" alt="Linz College hostel" />
+                    <div className="library-image-overlay"></div>
+                    <div className="library-image-label">
+                      <div className="library-image-icon">
+                        <i className="fa-solid fa-book-open"></i>
+                      </div>
+                      <div>
+                        <span>
+                          LINZ COLLEGE D.I.KHAN
+                        </span>
+                        {" "}
+                        <strong>
+                          Hostel
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="library-intro-content">
+                    <div className="section-eyebrow">
+                      RESIDENTIAL CAMPUS
+                    </div>
+                    <h2>
+                      Residential
+                      {" "}
+                      <span>
+                        Hostel
+                      </span>
+                    </h2>
+                    <p>
+                      Linz College is a residential institution, giving students who live away from home a place to stay, study and grow.
+                    </p>
+                    <p>
+                      For hostel details, availability and fees, please message us on WhatsApp or send an email.
+                    </p>
+                    <div className="library-actions">
+                      <a href="/contact" className="btn-campus-primary">
+                        Contact Us
+                        {" "}
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                      {" "}
+                      <a href="https://wa.me/923424803706" target="_blank" className="btn-campus-outline">
+                        WhatsApp Us
+                        {" "}
+                        <i className="fa-solid fa-vr-cardboard"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <Footer />
+        <div id="Modalsearch" className="modal fade sf-hidden" role="dialog" data-sf-nesting-track-id="1.1.4">
+          <div className="modal-dialog modal-lg sf-hidden" data-sf-nesting-track-id="1.1.4.1">
+            <div className="modal-content sf-hidden" data-sf-nesting-track-id="1.1.4.1.1">
+              <div className="modal-body sf-hidden" data-sf-nesting-track-id="1.1.4.1.1.2"></div>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" />
+      </form>
+      <BackToTop />
+      <table cellSpacing="0" cellPadding="0" role="presentation" className="gstl_50 gssb_c" style={{ "width": "2px", "display": "none", "top": "0px", "position": "absolute", "left": "-1px" }}></table>
+    </>
+  );
+}

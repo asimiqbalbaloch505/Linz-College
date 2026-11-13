@@ -14,7 +14,7 @@ export default function UsefulLinks() {
             </span>
           </h2>
           <p>
-            Quick access to important information, forms and resources for students and parents.
+            Quick access to key college information for students and parents.
           </p>
         </div>
         <div className="row g-3 mt-4">
@@ -41,21 +41,21 @@ export default function UsefulLinks() {
             </a>
           </div>
           <div className="col-lg-4 col-md-6">
-            <a href="/downloads/admission-form.pdf" rel="noopener" className="useful-link-card reveal active">
-              <img src="/images/linz/classroom.jpg" alt="Admission form" loading="lazy" />
+            <a href="/admissions" className="useful-link-card reveal active">
+              <img src="/images/linz/classroom.jpg" alt="Classroom at Linz College" loading="lazy" />
               <div className="useful-link-overlay"></div>
               <div className="useful-link-content">
                 <span className="useful-link-number">
                   02
                 </span>
                 <h3>
-                  Admission Form
+                  Admissions
                 </h3>
                 <p>
-                  Download the admission form and apply to Linz College.
+                  Find admission information and learn how to apply to Linz College.
                 </p>
                 <span className="useful-link-action">
-                  Download
+                  Explore Admissions
                   {" "}
                   <i className="fa-solid fa-arrow-right-long"></i>
                 </span>
@@ -63,21 +63,21 @@ export default function UsefulLinks() {
             </a>
           </div>
           <div className="col-lg-4 col-md-6">
-            <a href="https://wa.me/923424803706" rel="noopener" className="useful-link-card reveal active">
-              <img src="/images/linz/students.jpg" alt="WhatsApp enquiry" loading="lazy" />
+            <a href="/academics" className="useful-link-card reveal active">
+              <img src="/images/linz/lab-computer.jpg" alt="Linz College academic programs" loading="lazy" />
               <div className="useful-link-overlay"></div>
               <div className="useful-link-content">
                 <span className="useful-link-number">
                   03
                 </span>
                 <h3>
-                  WhatsApp Us
+                  Academics
                 </h3>
                 <p>
-                  Message us for admission and general enquiries.
+                  Explore school classes, Intermediate programs and learning facilities.
                 </p>
                 <span className="useful-link-action">
-                  Message Us
+                  Explore Academics
                   {" "}
                   <i className="fa-solid fa-arrow-right-long"></i>
                 </span>
@@ -96,7 +96,7 @@ export default function UsefulLinks() {
                   Facilities
                 </h3>
                 <p>
-                  Library, science labs, sports, cafeteria and hostel.
+                  Separate female section, library, labs, sports, cafeteria and hostel.
                 </p>
                 <span className="useful-link-action">
                   Explore
@@ -130,7 +130,7 @@ export default function UsefulLinks() {
           </div>
           <div className="col-lg-4 col-md-6">
             <a href="https://www.tiktok.com/@linz.college.d.i" target="_blank" rel="noopener" className="useful-link-card reveal active">
-              <img src="/images/linz/sports.jpg" alt="Linz College on TikTok" loading="lazy" />
+              <img src="/images/linz/sports.jpg" alt="Linz College students at a campus event" loading="lazy" />
               <div className="useful-link-overlay"></div>
               <div className="useful-link-content">
                 <span className="useful-link-number">

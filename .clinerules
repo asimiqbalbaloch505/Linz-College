@@ -1,0 +1,27 @@
+# Cline project context
+
+## Start here
+
+Before making a change, read `.github/copilot-instructions.md`, `HANDOVER.md`, and `THEME-GUIDE.md`. These describe the site's verified facts, current placeholders, component patterns, and CSS behavior contracts. Treat the handover's task list as background—not permission to perform unrelated tasks.
+
+## Project boundary
+
+- The active, deployable app and its Git repository are this `site/` directory. Make website changes here.
+- The workspace parent is a reverse-engineering archive. Do not edit `raw/`, `archive/`, `site-backup-*`, or root-level `index.html`, `style.css`, or `source.txt` unless explicitly asked.
+- Preserve existing user changes. Inspect `git status` before editing, and do not revert or overwrite unrelated work.
+
+## Application map
+
+- React 19 + Vite, plain JSX and CSS; no TypeScript, Tailwind, or UI component framework.
+- `src/Home.jsx` composes the homepage from `src/components/`.
+- Inner pages live in `src/subpages/`; `src/subpages/index.js` maps route slugs to page components, and `src/routes.json` maps URLs to slugs. Keep both mappings consistent when adding or removing a page.
+- `src/App.jsx` owns route rendering and shared navigation behavior. `src/behaviors.js` implements interactions tied to existing DOM classes.
+- Shared contact, identity, and social data belong in `src/siteConfig.js`. Public assets are under `public/`; use root-relative URLs such as `/images/logo.png`.
+
+## Change and validation rules
+
+- Follow `.github/copilot-instructions.md` and `THEME-GUIDE.md`; reuse existing markup/classes and put new CSS in `src/styles/custom.css`. Do not edit generated `public/theme.css`.
+- Do not invent college facts, fees, dates, staff, results, testimonials, or affiliations. Keep placeholder/launch items visible as such; use only client-approved content.
+- Keep the `noindex` protection until explicitly asked to launch. Do not deploy, push, or commit unless requested.
+- Make the smallest relevant change. After code changes, run `npm run build` and `node tools/check.mjs` from this directory; report any failures rather than hiding them.
+- Do not add dependencies unless requested. For image additions, follow the existing workflow in `HANDOVER.md` and `tools/optimize-images.mjs`.

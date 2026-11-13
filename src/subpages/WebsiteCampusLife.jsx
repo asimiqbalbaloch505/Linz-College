@@ -37,7 +37,7 @@ export default function WebsiteCampusLife() {
           <section className="campus-life-banner-section">
             <div className="container">
               <div className="campus-life-banner">
-                <img src="/images/linz/classroom.jpg" alt="Campus life at Linz College D.I.Khan" />
+                <img src="/images/linz/annual-celebration.jpg" alt="Linz College campus illuminated for an annual celebration" />
                 <div className="campus-life-banner-overlay"></div>
                 <div className="campus-life-banner-content">
                   <span>
@@ -57,7 +57,7 @@ export default function WebsiteCampusLife() {
               <div className="row align-items-center g-5">
                 <div className="col-lg-6">
                   <div className="campus-life-feature-image">
-                    <img src="/images/linz/result.jpg" alt="Linz College students and results" />
+                    <img src="/images/linz/student-project-exhibition.jpg" alt="Linz College students presenting a science project at an exhibition" />
                     <div className="campus-life-image-overlay"></div>
                     <div className="campus-life-image-badge">
                       <i className="fa-solid fa-users"></i>
@@ -86,10 +86,10 @@ export default function WebsiteCampusLife() {
                       </span>
                     </h2>
                     <p>
-                      Linz College is proud of its students. Over the years our students have shown brilliant results in both SSC and HSSC, and some of them have achieved top positions in the board examinations.
+                      Students at Linz College take part in academic and campus activities in a residential learning environment.
                     </p>
                     <p>
-                      Every result is the outcome of the hard work of our students, the guidance of our teachers and the support of their parents.
+                      The college offers education from Playgroup through FSc, with sports, a library and science and computer labs on campus.
                     </p>
                     <p>
                       For more information about our results, please contact us.
@@ -124,7 +124,7 @@ export default function WebsiteCampusLife() {
               <div className="row align-items-stretch g-4">
                 <div className="col-lg-7">
                   <div className="campus-sports-feature">
-                    <img src="/images/linz/sports.jpg" alt="Sports at Linz College D.I.Khan" />
+                    <img src="/images/linz/sports-day.jpg" alt="Students taking part in an outdoor sports day at Linz College" />
                     <div className="campus-sports-overlay"></div>
                     <div className="campus-sports-feature-content">
                       <span>

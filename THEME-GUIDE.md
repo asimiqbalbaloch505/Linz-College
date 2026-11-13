@@ -90,13 +90,10 @@ Use this to build new pages in exactly the same look and feel as the existing si
 - `affiliated-*` (10 classes): affiliated-institution-section, affiliated-section-heading, affiliated-institution-card, affiliated-institution-image
 
 ## Homepage sections (in order)
-### 1. section.islamabad-hero#home ("Islamabad Campus Where Knowledge Meets Innovation.")
+### 1. section.islamabad-hero#home ("Linz College — Knowledge That Lights the Way.")
 ```
 section.islamabad-hero#home
-  a
-    img
-  video.islamabad-hero-video
-    source
+  img.islamabad-hero-video
   div.islamabad-hero-overlay
   div.islamabad-hero-glow
   div.container.h-100
@@ -122,21 +119,9 @@ section.islamabad-welcome-section#welcome
       div.welcome-stat-divider
       div.welcome-stat
 ```
-### 3. section.islamabad-videos-section ("Explore Islamabad Campus")
-```
-section.islamabad-videos-section
-  div.container
-    div.islamabad-section-header.text-center.reveal
-      span.section-tag
-      h2
-      p
-    div.row.g-3.mt-4
-      div.col-lg-3.col-md-6  x4
-  div.campus-videos-more.text-center.reveal
-    a.campus-videos-more-btn
-      i.fa-solid.fa-arrow-right-long
-```
-### 4. section.islamabad-faculties-section#faculty ("Faculties & Departments")
+The homepage video section is rendered by `src/components/CollegeVideos.jsx` after the Wall of Fame section. Its cards link to the client-supplied Linz College YouTube video; replace the repeated cards and thumbnail when additional college videos are supplied.
+
+### 3. section.islamabad-faculties-section#faculty ("Programs & Learning")
 ```
 section.islamabad-faculties-section#faculty
   div.container
@@ -145,11 +130,9 @@ section.islamabad-faculties-section#faculty
       h2
       p
     div.row.g-4.mt-4
-      div.col-xl-4.col-lg-4  x2
-      div.col-xl-4.col-lg-6  x2
-      div.col-xl-4.col-lg-12  x2
+      div.col-xl-4.col-lg-4  x3
 ```
-### 5. section.islamabad-admissions-section#admissions ("Start Your Journey With Us")
+### 4. section.islamabad-admissions-section#admissions ("Start Your Journey With Us")
 ```
 section.islamabad-admissions-section#admissions
   div.container
@@ -164,7 +147,7 @@ section.islamabad-admissions-section#admissions
       div.admission-resource-links
       div.admission-apply
 ```
-### 6. section.islamabad-campus-life-section#campus-life ("Life Beyond the Classroom")
+### 5. section.islamabad-campus-life-section#campus-life ("Life Beyond the Classroom")
 ```
 section.islamabad-campus-life-section#campus-life
   div.container
@@ -177,22 +160,7 @@ section.islamabad-campus-life-section#campus-life
     div.campus-life-bottom.reveal.active
       a  x4
 ```
-### 7. section.islamabad-research-section#research ("Discover. Innovate. Impact.")
-```
-section.islamabad-research-section#research
-  div.container
-    div.islamabad-section-header.text-center.reveal
-      span.section-tag
-      h2
-      p
-    div.row.g-4.mt-4
-      div.col-lg-7
-      div.col-lg-5
-    div.research-bottom.reveal.active
-      div.research-bottom-content
-      div.research-bottom-links
-```
-### 8. section.islamabad-library-section#library ("Knowledge in Your Hands")
+### 6. section.islamabad-library-section#library ("Knowledge in Your Hands")
 ```
 section.islamabad-library-section#library
   div.container
@@ -201,7 +169,7 @@ section.islamabad-library-section#library
     div.library-resource-bar.reveal.active
       a  x4
 ```
-### 9. section.islamabad-news-section#news-events ("What's Happening at Islamabad Campus")
+### 7. section.islamabad-news-section#news-events ("What's Happening at Linz College")
 ```
 section.islamabad-news-section#news-events
   div.container
@@ -213,7 +181,16 @@ section.islamabad-news-section#news-events
       div.col-lg-7
       div.col-lg-5
 ```
-### 10. section.islamabad-leadership-section ("Inspiring Excellence, Leading the Future")
+### 8. section.wall-of-fame-section ("Celebrating Achievements")
+```
+section.wall-of-fame-section
+  div.container
+    div.wall-of-fame-heading
+    div.row.g-4
+      div.col-lg-4.col-md-6  x3
+    div.wall-of-fame-footer
+```
+### 9. section.islamabad-leadership-section ("Inspiring Excellence, Leading the Future")
 ```
 section.islamabad-leadership-section
   div.container
@@ -224,7 +201,7 @@ section.islamabad-leadership-section
     div.row.g-4.mt-4
       div.col-lg-6  x2
 ```
-### 11. section.islamabad-services-section ("Everything You Need, All in One Campus")
+### 10. section.islamabad-services-section ("Everything You Need, All in One Campus")
 ```
 section.islamabad-services-section
   div.container
@@ -236,7 +213,7 @@ section.islamabad-services-section
       div.col-lg-3.col-md-6  x4
       div.col-lg-4.col-md-6  x4
 ```
-### 12. section.islamabad-useful-links ("Useful Links")
+### 11. section.islamabad-useful-links ("Useful Links")
 ```
 section.islamabad-useful-links
   div.container
@@ -247,7 +224,7 @@ section.islamabad-useful-links
     div.row.g-3.mt-4
       div.col-lg-4.col-md-6  x6
 ```
-### 13. section.islamabad-testimonials-section#testimonials ("What Our Community Says")
+### 12. section.islamabad-testimonials-section#testimonials ("What Our Community Says")
 ```
 section.islamabad-testimonials-section#testimonials
   div.container
@@ -258,7 +235,7 @@ section.islamabad-testimonials-section#testimonials
     div.testimonial-slider-wrap
       div.carousel.slide#campusTestimonials
 ```
-### 14. section.islamabad-contact-section ("We're Here to Help")
+### 13. section.islamabad-contact-section ("We're Here to Help")
 ```
 section.islamabad-contact-section
   div.container
@@ -274,13 +251,14 @@ section.islamabad-contact-section
 ```
 
 ## Inner pages (what each page is made of)
+- **linz-college-alumni**: section.inner-page-hero ("Alumni & Wall of Fame")  |  nav.alumni-category-nav ("Wall of Fame, Board Toppers, MDCAT Achievers")  |  section.alumni-carousel-section#wall-of-fame  |  section.alumni-carousel-section#board-toppers  |  section.alumni-carousel-section#mdcat-achievers  |  section.alumni-community-cta ("Share a Linz College achievement")
 - **website-about-comsats**: section.inner-page-hero ("About Islamabad Campus")  |  section.about-inner-intro ("An Innovative Institution of Learning")  |  section.about-vision-section ("Building a National Presence")  |  section.about-mission-section ("Knowledge with Purpose")  |  section.about-history-section ("A Legacy of Excellence")  |  section.about-leadership-section ("Islamabad Campus Leadership")  |  section.about-admin-section#administrative-offices ("Administrative Offices")
-- **website-campus-life**: section.inner-page-hero ("Islamabad Campus Life")  |  section.campus-life-banner-section ("Discover Your Campus.Discover Yourself.")  |  section.campus-life-content-section ("Student Affairs")  |  section.campus-life-dark-section.harassment-policy-section ("Harassment Policy")  |  section.campus-sports-section ("Stay Active. Stay Connected.")  |  section.campus-medical-section ("Inam-ul-Haq Medical Center")  |  section.campus-transport-section ("Convenient Campus Transport")  |  section.campus-societies-section ("Find Your Community")  |  section.campus-ssc-section ("Student Service Center")  |  section.campus-city-section ("Life in Islamabad")
+- **website-campus-life**: section.inner-page-hero ("Campus Life")  |  section.campus-life-banner-section ("Discover Your Campus. Discover Yourself.")  |  section.campus-life-content-section#achievements ("Our Achievements")  |  section.campus-sports-section ("Stay Active. Stay Connected.")
 - **website-comsats-academics**: section.inner-page-hero ("COMSATS Academics")  |  section.academics-banner-section ("Knowledge. Innovation. Impact.")  |  section.academics-overview-section ("Learning at COMSATS")  |  section.academic-departments-section ("Faculties & Departments")  |  section.academic-support-section#centers ("Centers & Offices")  |  section.course-catalog-section ("Course Catalog")
 - **website-comsats-admissions**: section.inner-page-hero ("Admissions")  |  section.admission-snapshot-section ("Your Journey Starts Here")  |  section.admissions-welcome-section ("Your Journey Starts Here")  |  section.admissions-options-section#admission-options ("Explore Admissions")  |  section.why-cui-section ("More Than a University")  |  section.admission-glance-section ("A University of Opportunity")  |  section.admission-timeline-section ("Fall 2026 Admission Timeline")  |  section.admission-test-info-section ("NAT / NTS Test Information")  |  section.admissions-help-section ("We're Here to Help You")  |  section.admissions-alumni-section ("Alumni Testimonials")
 - **website-comsats-affiliations**: section.inner-page-hero.academics-hero ("Affiliations")  |  section.affiliation-intro ("Extending the reach of quality education.")  |  section.affiliated-institution-section ("Faisalabad Institute of Science and Technology")
 - **website-comsats-cafeteria**: section.inner-page-hero.student-service-hero ("Student Service Center")  |  section.student-service-intro ("A Place to Relax & Refresh")  |  section.student-foodhall-section ("State-of-the-Art Food Hall")
-- **website-comsats-news**: section.inner-page-hero ("Islamabad Campus News")  |  section.featured-news-section ("National Seminar on Climate Change & Resilience")  |  section.campus-news-section ("Latest Campus News")
+- **website-comsats-news**: section.inner-page-hero ("Campus News")  |  section.featured-news-section ("Pre-First-Year Admissions Open")  |  section.campus-news-section ("Latest Campus News")
 - **website-contact-us**: section.inner-page-hero.contact-hero ("Contact Us")  |  section.contact-main-section ("How can we help?")
 - **website-frequently-asked-questions**: section.inner-page-hero.faq-hero ("Frequently Asked Questions")  |  section.faq-main-section ("Frequently Asked Questions")
 - **website-incharge-campus**: section.inner-page-hero ("InCharge Campus")  |  section.incharge-message-section ("Welcome to COMSATS Islamabad")

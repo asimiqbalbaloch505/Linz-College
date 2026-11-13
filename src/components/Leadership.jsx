@@ -87,7 +87,7 @@ export default function Leadership() {
                 </div>
                 <div className="leadership-message">
                   <p>
-                    Linz College was founded in April 2015 to bring a quality residential institution to D.I.Khan, where students can receive a quality education and show brilliant results in SSC and HSSC.
+                    Established in 2015, Linz College provides a residential learning environment for students in D.I.Khan.
                   </p>
                 </div>
                 <a href="/principal" className="leadership-link cyan">

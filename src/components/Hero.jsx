@@ -3,9 +3,9 @@ import { site } from "../siteConfig";
 
 const STATS = [
   ["2015", "Established"],
-  ["40+", "Faculty & Staff"],
+  ["3", "Intermediate Programs"],
   ["4", "Science & Computer Labs"],
-  ["BISE", "D.I.Khan Affiliated"],
+  ["Residential", "Campus"],
 ];
 
 export default function Hero() {
@@ -27,7 +27,7 @@ export default function Hero() {
                 Knowledge That <span>Lights the Way.</span>
               </h1>
               <p>
-                A residential institution in Dera Ismail Khan, affiliated with BISE D.I.Khan, offering quality education from Playgroup to FSc.
+                A residential college in Dera Ismail Khan, offering education from Playgroup to FSc.
               </p>
               <div className="islamabad-hero-buttons">
                 <a href={site.whatsapp.link} target="_blank" rel="noopener noreferrer" className="islamabad-btn-primary">

@@ -35,10 +35,10 @@ export default function Welcome() {
                 </span>
               </h2>
               <p className="welcome-intro">
-                Linz College D.I.Khan is a residential institution affiliated with the Board of Intermediate and Secondary Education (BISE) D.I.Khan, offering quality education from Playgroup to FSc.
+                Linz College D.I.Khan is a residential college in Dera Ismail Khan, offering education from Playgroup to FSc.
               </p>
               <p>
-                Founded in April 2015 by Hameed Ramzan Qarni, the college was established to give the students of D.I.Khan a quality residential institution, and our students have shown brilliant results in both SSC and HSSC.
+                Established in 2015, the college offers a residential learning environment for students from D.I.Khan and nearby areas.
               </p>
               <div className="welcome-highlights">
                 <div className="welcome-highlight">
@@ -77,6 +77,19 @@ export default function Welcome() {
                     </h4>
                     <span>
                       Sports, events and activities for a complete student experience.
+                    </span>
+                  </div>
+                </div>
+                <div className="welcome-highlight">
+                  <div className="highlight-icon">
+                    <i className="fa-solid fa-person-dress"></i>
+                  </div>
+                  <div>
+                    <h4>
+                      Separate Female Section
+                    </h4>
+                    <span>
+                      A dedicated female section is available at Linz College.
                     </span>
                   </div>
                 </div>
@@ -120,11 +133,11 @@ export default function Welcome() {
             <i className="fa-solid fa-users"></i>
             <div>
               <strong>
-                40+
+                3
               </strong>
               {" "}
               <span>
-                Faculty &amp; Staff
+                Intermediate Programs
               </span>
             </div>
           </div>
@@ -133,11 +146,11 @@ export default function Welcome() {
             <i className="fa-solid fa-certificate"></i>
             <div>
               <strong>
-                BISE
+                Residential
               </strong>
               {" "}
               <span>
-                D.I.Khan Affiliated
+                Campus
               </span>
             </div>
           </div>

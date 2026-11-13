@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import { site } from "../siteConfig";
 
 const EXT = { target: "_blank", rel: "noopener noreferrer" };
@@ -36,6 +37,7 @@ function MegaFooter({ href, text, note }) {
 }
 
 export default function Header() {
+  const { pathname } = useLocation();
   const [open, setOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const menuRef = useRef(null);
@@ -57,6 +59,15 @@ export default function Header() {
       }
       return;
     }
+    const academicSectionLink = e.target.closest('a[href^="/academics#"]');
+    if (academicSectionLink && pathname === "/academics") {
+      e.preventDefault();
+      if (mobile) {
+        setOpen(false);
+        setOpenMenu(null);
+      }
+      return;
+    }
     if (mobile && e.target.closest("a[href]")) {
       setOpen(false);
       setOpenMenu(null);
@@ -69,7 +80,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg floating-nav">
         <div className="container px-0">
           <a className="navbar-brand d-flex align-items-center active" href="/">
-            <img src={site.logo} alt={`${site.name} logo`} style={{ height: 52, width: "auto" }} />
+            <img src={site.logo} alt={`${site.name} logo`} style={{ height: 60, width: "auto" }} />
             <div className="ms-2">
               <div className="logo-title">LINZ</div>
               <small>COLLEGE D.I.KHAN</small>
@@ -94,11 +105,23 @@ export default function Header() {
                 <div className="mega-menu p-0">
                   <MegaHeader title="Our Programs" badge="Playgroup – FSc" />
                   <div className="row g-5 p-4">
-                    <Col cls="col-12 col-md-6 col-lg-4" title="SCHOOL" items={[["Playgroup & Primary", "/academics"], ["Middle Section", "/academics"], ["Matric (SSC)", "/academics"]]} />
-                    <Col cls="col-12 col-md-6 col-lg-4" title="COLLEGE (HSSC)" items={[["FSc Pre-Medical", "/academics"], ["FSc Pre-Engineering", "/academics"], ["ICS", "/academics"]]} />
+                    <Col cls="col-12 col-md-6 col-lg-4" title="SCHOOL" items={[["Playgroup & Primary", "/academics#playgroup"], ["Middle Section", "/academics#middle"], ["Matric (SSC)", "/academics#matric"]]} />
+                    <Col cls="col-12 col-md-6 col-lg-4" title="COLLEGE (HSSC)" items={[["FSc Pre-Medical", "/academics#pre-medical"], ["FSc Pre-Engineering", "/academics#pre-engineering"], ["ICS", "/academics#ics"]]} />
                     <Col cls="col-12 col-md-6 col-lg-4" title="RESOURCES" items={[["Prospectus (PDF)", "/downloads/prospectus.pdf", true], ["Science & Computer Labs", "/facilities#labs"], ["Library", "/facilities#library"]]} />
                   </div>
                   <MegaFooter href="/academics" text="View all academics" note={`🎓 ${site.name}`} />
+                </div>
+              </li>
+              <li className="nav-item mega-dropdown" id="facilitiesMenu">
+                <a className="nav-link" href="#">Facilities</a>
+                <div className="mega-menu student-menu p-0" id="facilitiesMega">
+                  <MegaHeader title="Campus Facilities" badge="Explore Linz" />
+                  <div className="row g-5 p-4">
+                    <Col cls="col-12 col-md-6 col-lg-4" title="LEARNING" items={[["Library", "/facilities#library"], ["Physics Lab", "/facilities#labs"], ["Chemistry Lab", "/facilities#labs"]]} />
+                    <Col cls="col-12 col-md-6 col-lg-4" title="CAMPUS" items={[["Biology & Computer Labs", "/facilities#labs"], ["Sports", "/facilities#sports"], ["Cafeteria", "/facilities#cafeteria"]]} />
+                    <Col cls="col-12 col-md-6 col-lg-4" title="STUDENT LIFE" items={[["Hostel", "/facilities#hostel"], ["Separate Female Section", "/facilities#female-section"], ["Campus Life", "/campus-life"]]} />
+                  </div>
+                  <MegaFooter href="/facilities" text="View All Facilities" note={`🏫 ${site.name}`} />
                 </div>
               </li>
               <li className="nav-item mega-dropdown" id="admissionMenu">
@@ -150,15 +173,15 @@ export default function Header() {
                   <div className="container-fluid p-4">
                     <div className="row">
                       <Col cls="col-lg-4" title="THE COLLEGE" items={[["Our Story", "/about"], ["Principal's Message", "/principal"], ["Faculty", "/about#faculty"]]} />
-                      <Col cls="col-lg-4" title="COMMUNITY" items={[["News & Events", "/news"], ["FAQs", "/faq"], ["Contact Us", "/contact"]]} />
+                      <Col cls="col-lg-4" title="COMMUNITY" items={[["Alumni & Wall of Fame", "/alumni"], ["News & Events", "/news"], ["FAQs", "/faq"], ["Contact Us", "/contact"]]} />
                       <div className="col-lg-4">
                         <div className="about-highlight">
                           <small>OUR STORY</small>
                           <h4>Quality Education in D.I.Khan</h4>
-                          <p>A residential institution affiliated with {site.board}.</p>
+                          <p>Quality education from Playgroup through FSc at a residential campus in D.I.Khan.</p>
                           <div className="row text-center mt-4">
                             <div className="col-4"><h5>{site.established}</h5><small>Founded</small></div>
-                            <div className="col-4"><h5>40+</h5><small>Staff</small></div>
+                            <div className="col-4"><h5>3</h5><small>Intermediate Programs</small></div>
                             <div className="col-4"><h5>4</h5><small>Labs</small></div>
                           </div>
                           <a href="/about" className="about-btn">Discover More →</a>
@@ -171,8 +194,8 @@ export default function Header() {
               </li>
             </ul>
             <div className="navbar-actions d-flex align-items-center gap-3">
-              <a className="status-pill" href={site.downloads.prospectus} {...EXT} style={{ textDecoration: "none" }}>
-                Download Prospectus
+              <a className="status-pill" href="/admissions" style={{ textDecoration: "none" }}>
+                Admissions Open
               </a>{" "}
               <a className="apply-btn" href="/contact">Contact Us →</a>
             </div>

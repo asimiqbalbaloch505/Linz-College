@@ -18,13 +18,12 @@ export default function Testimonials() {
           </p>
         </div>
         <div className="testimonial-slider-wrap">
-          <div id="campusTestimonials" className="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+          <div id="campusTestimonials" className="carousel slide">
             <div className="carousel-inner">
-              <div className="carousel-item sf-hidden"></div>
               <div className="carousel-item active">
                 <div className="testimonial-slide">
                   <div className="testimonial-image">
-                    <img src="/images/linz/students.jpg" alt="Sample reviewer" loading="lazy" />
+                    <img src="/images/linz/asim-iqbal.png" alt="Portrait of Asim Iqbal, Linz College alumnus" loading="lazy" />
                     <div className="testimonial-image-overlay"></div>
                     <div className="testimonial-image-label">
                       LINZ COLLEGE D.I.KHAN
@@ -35,47 +34,29 @@ export default function Testimonials() {
                       <i className="fa-solid fa-quote-left"></i>
                     </div>
                     <span className="testimonial-label">
-                      PARENT EXPERIENCE
+                      ALUMNI REVIEW - DRAFT FOR ASIM'S APPROVAL
                     </span>
                     <h3>
-                      Sample review: replace with a real parent review.
+                      My time at Linz College was an important part of my student life.
                     </h3>
                     <p>
-                      This is a sample review. Replace this text with a real review from a parent, student or alumnus of Linz College D.I.Khan, shared with their permission.
+                      I studied FSc Pre-Medical at Linz College and stayed in the hostel. Living on campus helped me focus on my studies and feel part of college life. I am grateful for the people and memories from my time there.
                     </p>
                     <div className="testimonial-person">
                       <div>
                         <strong>
-                          Parent Name
+                          Asim Iqbal
                         </strong>
                         {" "}
                         <span>
-                          Linz College Parent
+                          FSc Pre-Medical Alumnus
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="carousel-item sf-hidden"></div>
-              <div className="carousel-item sf-hidden"></div>
-              <div className="carousel-item sf-hidden"></div>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#campusTestimonials" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon"></span>
-              {" "}
-              <span className="visually-hidden">
-                Previous
-              </span>
-            </button>
-            {" "}
-            <button className="carousel-control-next" type="button" data-bs-target="#campusTestimonials" data-bs-slide="next">
-              <span className="carousel-control-next-icon"></span>
-              {" "}
-              <span className="visually-hidden">
-                Next
-              </span>
-            </button>
           </div>
         </div>
       </div>

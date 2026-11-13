@@ -3,8 +3,6 @@ export const site = {
   shortName: "Linz",
   city: "Dera Ismail Khan",
   established: 2015,
-  board: "BISE D.I.Khan",
-  affiliation: "Board of Intermediate and Secondary Education (BISE) D.I.Khan",
   tagline: "Knowledge That Lights the Way",
   logo: "/images/logo.png",
   principal: { name: "Hameed Ramzan Qarni", title: "Principal" },
@@ -16,7 +14,7 @@ export const site = {
   social: {
     tiktok: "https://www.tiktok.com/@linz.college.d.i",
     instagram: "https://www.instagram.com/linzcollegedikhan/",
-    facebook: "",
+    facebook: "https://www.facebook.com/linzcollege",
     youtube: "",
   },
   map: {
