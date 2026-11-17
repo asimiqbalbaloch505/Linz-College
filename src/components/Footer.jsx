@@ -90,7 +90,7 @@ export default function Footer() {
           <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "14px" }}>
             <span style={{ opacity: 0.85 }}>Designed &amp; Developed by</span>
             <a 
-              href="https://codavane-website1.vercel.app/" 
+              href="https://www.codavane.com/" 
               {...EXT} 
               style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontWeight: 600, textDecoration: "none", color: "inherit" }}
             >
